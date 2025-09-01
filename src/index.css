@@ -1,0 +1,116 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+@theme {
+  --breakpoint-lg: 1200px;
+  --breakpoint-sm: 275px;
+  --breakpoint-md: 687px;
+  --color-primary: #347758;
+  --color-secondary: #ffffff;
+  --color-button: #e84c3d;
+  --color-tertiary: #a0d468;
+  --color-quaternary: #efefef;
+  --color-quintanary: #f4c340;
+  --color-texted: #000000;
+  --text-Textbody: 16px;
+  --text-Texttitle1: 30px;
+  --text-Texttitle2: 25px;
+  --font-fonttitle: "Quicksand", sans-serif;
+  --font-fontbody: "Roboto", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-secondary;
+  }
+  h2 {
+    @apply text-primary text-Texttitle1 font-fonttitle font-bold;
+  }
+  h3 {
+    @apply text-primary text-Texttitle2 font-fonttitle font-bold;
+  }
+  p {
+    @apply text-primary text-Textbody font-fontbody;
+  }
+}
+
+@layer components {
+  @keyframes slidein {
+    from {
+      transform: translatex(-100%);
+    }
+    to {
+      transform: translatex(0);
+    }
+  }
+  .slidein {
+    animation: slidein 0.5s ease-out forwards;
+  }
+  .pageMargin{
+   @apply md:mt-60 sm:mt-60 lg:mt-60
+  }
+  .socialButtons{
+    @apply border px-2 py-1 bg-blue-600 rounded-2xl font-medium text-secondary cursor-pointer
+  }
+
+    @keyframes slideincart {
+    from {
+      transform: translatex(100%);
+    }
+    to {
+      transform: translatex(0);
+    }
+  }
+  .slideincart {
+    animation:slideincart 0.5s ease-out forwards;
+  }
+
+  @keyframes accrodion {
+    from {
+      max-height: 0;
+      opacity: 0;
+    }
+    to {
+      max-height: 500px;
+      opacity: 1;
+    }
+  }
+  .accordion {
+    animation: accordion 0.5s ease-in-out forwards;
+  }
+
+
+  @keyframes smoothnav{
+    from{
+      top:-1000%
+    }to{
+      top:0
+    }
+  }
+  .smoothnav {
+  animation: smoothnav 1s ease-in-out forwards;
+}
+
+  .button1{
+    @apply sm:underline md:no-underline md:py-3 md:px-3  text-secondary md:rounded-2xl md:font-semibold md:bg-quintanary cursor-pointer
+  }
+  .cardButton{
+    @apply  py-2.5 px-2 rounded-2xl bg-gray-400 group-hover:bg-primary transition duration-300 ease-in-out text-primary group-hover:text-secondary font-bold cursor-pointer w-full 
+  }
+  .button2{
+    @apply text-[16px] bg-primary text-secondary mt-4  text-center sm:py-1 md:py-2 rounded-2xl sm:w-30 md:w-40 cursor-pointer
+  }
+  .addeditemIndicator{
+    @apply  text-secondary text-[10px] flex items-center justify-center  w-4 h-4 rounded-full bg-quintanary absolute -right-1 top-0
+  }
+  .hr{
+   @apply text-gray-400
+  }
+
+}
+
+
+@layer utilities {
+}

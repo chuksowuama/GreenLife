@@ -1,0 +1,2180 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Organic Valencia Orange",
+      "category": "fruits",
+      "subcategory": "citrus",
+      "description": "Grown in the sun-drenched orchards of Florida's Indian River region, these Valencia oranges develop their signature sweetness through a unique 24-month maturation cycle that allows two harvests per year. The fruit contains 18% more juice than conventional varieties, with a perfect 12:1 sugar-to-acid ratio (14° Brix) that creates an exquisite balance of sweetness and tang. Each orange provides 130% DV of Vitamin C and contains the flavonoid hesperidin, clinically shown to support cardiovascular health by improving capillary function. The thin, deep-orange rind is rich in d-limonene (up to 90% of essential oils), a compound studied for its antioxidant properties. Grown using regenerative citrus practices that increase soil organic matter by 3% annually. The albedo (white pith) contains 22% of the fruit's total fiber content.",
+      "nutrition": {
+        "calories": 62,
+        "macros": {
+          "carbohydrates": "15.4g",
+          "fiber": "3.1g (11% DV)",
+          "sugars": "12.2g"
+        },
+        "vitamins": {
+          "Vitamin C": "137% DV",
+          "Thiamine": "8% DV",
+          "Folate": "10% DV"
+        },
+        "minerals": {
+          "Potassium": "7% DV",
+          "Calcium": "5% DV"
+        },
+        "phytonutrients": ["Hesperidin", "D-Limonene", "Beta-Cryptoxanthin"]
+      },
+      "origin": "Indian River, Florida",
+      "harvest_season": "March-June & October-December",
+      "growing_method": "Regenerative citrus agroforestry",
+      "certifications": ["USDA Organic", "Bee Better Certified"],
+      "price": 3.99,
+      "price_unit": "per pound",
+      "images": [
+        "https://images.unsplash.com/photo-1580052614030-c3f7c17e8ab8",
+        "https://images.unsplash.com/photo-1587486913049-53fc88980dfa",
+        "https://images.unsplash.com/photo-1557800634-7bf3c7305594"
+      ],
+      "available": true,
+      "stock": 200,
+      "rating": 4.9,
+      "reviews": 184,
+      "storage_tips": "Store at 38-48°F with 90-95% humidity for 3-4 week freshness",
+      "culinary_uses": ["Juicing", "Marmalades", "Salad dressings", "Cocktail garnishes"]
+    },
+    {
+      "id": 2,
+      "name": "Blueberry Medley",
+      "category": "fruits",
+      "subcategory": "berries",
+      "description": "This premium medley combines three heritage varieties grown in Michigan's mineral-rich glacial soils: the sweet Powder Blue (developed in 1949), the complex-flavored Tifblue, and the antioxidant-rich Rubel (containing 40% more anthocyanins than commercial berries). Each berry develops its signature flavor profile during cool 55°F nights that slow sugar metabolism, creating perfect 14° Brix sweetness with 0.7% titratable acidity. The natural epicuticular wax bloom remains intact due to hand-harvesting at the precise early-morning dew point. Clinical studies show these berries contain pterostilbene (a compound structurally similar to resveratrol) at 160μg/100g, shown to support cognitive function. The 3:1 glucose-to-fructose ratio makes them gentler on digestion than high-fructose fruits.",
+      "nutrition": {
+        "calories": 84,
+        "macros": {
+          "carbohydrates": "21.4g",
+          "fiber": "3.6g (13% DV)",
+          "sugars": "14.7g"
+        },
+        "vitamins": {
+          "Vitamin K": "36% DV",
+          "Vitamin C": "24% DV",
+          "Manganese": "25% DV"
+        },
+        "antioxidants": {
+          "Anthocyanins": "163mg/100g",
+          "Pterostilbene": "160μg/100g"
+        },
+        "ORAC_value": 9621
+      },
+      "origin": "Upper Peninsula, Michigan",
+      "harvest_season": "July-August",
+      "growing_method": "Integrated pest management with beneficial insects",
+      "certifications": ["USDA Organic", "Non-GMO Project Verified"],
+      "price": 5.99,
+      "price_unit": "12oz container",
+      "images": [
+        "https://images.unsplash.com/photo-1498557850523-fd3d118b962e",
+        "https://images.unsplash.com/photo-1425934398893-310a009a77f9",
+        "https://images.unsplash.com/photo-1604977046800-87ef6a89b8c3"
+      ],
+      "available": true,
+      "stock": 150,
+      "rating": 4.8,
+      "reviews": 237,
+      "storage_tips": "Keep refrigerated in vented container, do not wash until ready to use",
+      "culinary_uses": ["Smoothie bowls", "Infused waters", "Fermented shrubs", "Vinaigrettes"]
+    },
+    {
+      "id": 3,
+      "name": "Golden Pineapple",
+      "category": "fruits",
+      "subcategory": "tropical",
+      "description": "Cultivated in Costa Rica's Central Valley volcanic soils, this MD-2 variety develops its signature low-acid sweetness (pH 4.8 vs standard 3.8) through exacting 18-month growth cycles with precise irrigation control. The golden-yellow flesh contains 16° Brix sugar content and exceptionally high bromelain concentrations (up to 12 GDU/g) - an enzyme complex shown to support protein digestion. Each pineapple's crown contains 40-50 slips that growers replant, creating a closed-loop system. The fruit's core is edible and contains 3x the fiber of the flesh. Grown using biodynamic practices that incorporate lunar cycles for harvest timing. Clinical studies indicate the carotenoids (beta-carotene and violaxanthin) in this variety have 92% higher bioavailability than conventional pineapples.",
+      "nutrition": {
+        "calories": 82,
+        "macros": {
+          "carbohydrates": "21.6g",
+          "fiber": "2.3g (8% DV)",
+          "sugars": "16.3g"
+        },
+        "enzymes": {
+          "Bromelain": "12 GDU/g",
+          "Acid phosphatase": "0.8 U/g"
+        },
+        "vitamins": {
+          "Vitamin C": "131% DV",
+          "Vitamin B6": "9% DV"
+        },
+        "minerals": {
+          "Manganese": "76% DV",
+          "Copper": "9% DV"
+        }
+      },
+      "origin": "Central Valley, Costa Rica",
+      "harvest_season": "Year-round (peak March-July)",
+      "growing_method": "Biodynamic intercropping with nitrogen-fixing cover crops",
+      "certifications": ["USDA Organic", "Demeter Biodynamic"],
+      "price": 4.49,
+      "price_unit": "each",
+      "images": [
+        "https://images.unsplash.com/photo-1550258987-190a2d41a8ba",
+        "https://images.unsplash.com/photo-1518623390319-8ec455f1db4a",
+        "https://images.unsplash.com/photo-1572853454110-5f5150b4a125"
+      ],
+      "available": true,
+      "stock": 85,
+      "rating": 4.7,
+      "reviews": 156,
+      "storage_tips": "Ripen upside-down to distribute sugars evenly, refrigerate after cutting",
+      "culinary_uses": ["Grilling", "Tepache fermentation", "Ceviche", "Sorbets"]
+    },
+    {
+  "id": 4,
+  "name": "Tuscan Kale (Lacinato)",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "description": "This heirloom Lacinato kale, known as 'Dinosaur Kale', grows in California's coastal fog belt where cool temperatures enhance its natural sweetness and tender texture. The blue-green leaves contain 45% more lutein and 38% more beta-carotene than curly kale varieties, with a unique savoyed surface that captures nutrient-rich dew. Grown using biodynamic preparations (BD 500-508) that increase leaf mineral content by up to 22%. The thick midribs contain silicon fibers that remain crisp when cooked, while the leaves develop umami flavors when lightly massaged with citrus. Contains sulforaphane precursors at levels 3x higher than broccoli, activated when chopped or chewed. Each bunch is hand-harvested at the 12-leaf stage for optimal phytonutrient density.",
+  "nutrition": {
+    "calories": 33,
+    "macros": {
+      "carbohydrates": "6g",
+      "fiber": "2.6g (9% DV)",
+      "protein": "2.9g"
+    },
+    "vitamins": {
+      "Vitamin K": "684% DV",
+      "Vitamin A": "206% DV",
+      "Vitamin C": "134% DV"
+    },
+    "minerals": {
+      "Manganese": "26% DV",
+      "Calcium": "14% DV"
+    },
+    "phytonutrients": ["Lutein", "Beta-carotene", "Glucosinolates"]
+  },
+  "origin": "Salinas Valley, California",
+  "harvest_season": "Year-round (peak November-March)",
+  "growing_method": "Biodynamic fog-fed agriculture",
+  "certifications": ["USDA Organic", "Demeter Biodynamic", "Regenerative Organic"],
+  "price": 3.29,
+  "price_unit": "per bunch",
+  "images": [
+    "https://images.unsplash.com/photo-1543253687-c931dcb02701",
+    "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
+    "https://images.unsplash.com/photo-1603048719537-7a7a2c60d2b8"
+  ],
+  "available": true,
+  "stock": 120,
+  "rating": 4.7,
+  "reviews": 142,
+  "storage_tips": "Store upright in 1\" water like flowers, cover leaves with damp cloth",
+  "culinary_uses": ["Massaged salads", "Crispy chips", "Pesto", "Fermented kraut"]
+},
+  {
+  "id": 5,
+  "name": "Rainbow Heirloom Carrots",
+  "category": "vegetables",
+  "subcategory": "root",
+  "description": "This rare seed mix includes four heritage varieties: Cosmic Purple (containing anthocyanins also found in blueberries), Solar Yellow (rich in lutein), Lunar White (high in phytochemical falcarinol), and Atomic Red (loaded with lycopene). Grown in molybdenum-rich volcanic soils of Oregon's Willamette Valley, these carrots develop 40% more secondary metabolites than conventional varieties. The taproots reach 12-14\" length while maintaining exceptional crunch due to calcium pectate cell wall structures. Purple varieties contain 28x more anthocyanins than orange carrots, while yellow cultivars provide 65% of daily lutein needs per serving. Harvested at 90 days when sugar content peaks at 8° Brix, then hydro-cooled within 2 hours to preserve crispness.",
+  "nutrition": {
+    "calories": 41,
+    "macros": {
+      "carbohydrates": "9.6g",
+      "fiber": "2.8g (10% DV)",
+      "sugars": "4.7g"
+    },
+    "vitamins": {
+      "Vitamin A": "428% DV (orange)",
+      "Vitamin K": "21% DV",
+      "Biotin": "20% DV"
+    },
+    "antioxidants": {
+      "Anthocyanins": "Purple: 45mg/100g",
+      "Lycopene": "Red: 2.3mg/100g",
+      "Lutein": "Yellow: 3.2mg/100g"
+    },
+    "minerals": {
+      "Potassium": "11% DV",
+      "Molybdenum": "12% DV"
+    }
+  },
+  "origin": "Willamette Valley, Oregon",
+  "harvest_season": "July-October",
+  "growing_method": "No-till regenerative farming",
+  "certifications": ["USDA Organic", "Chefs' Alliance Approved"],
+  "price": 3.49,
+  "price_unit": "per pound",
+  "images": [
+    "https://images.unsplash.com/photo-1447175008436-054170c2e979",
+    "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37",
+    "https://images.unsplash.com/photo-1530137073520-3a12f18a48c6"
+  ],
+  "available": true,
+  "stock": 180,
+  "rating": 4.9,
+  "reviews": 203,
+  "storage_tips": "Remove greens, store in perforated bags at 32°F with 98% humidity",
+  "culinary_uses": ["Roasting", "Pickling", "Juicing", "Soil-to-plate raw preparations"]
+},
+  {
+  "id": 6,
+  "name": "Sunrise Citrus Elixir",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "Cold-pressed within 2 hours of harvest from a proprietary blend of Valencia oranges (62%), Ruby Red grapefruit (28%), and Meyer lemons (10%). This 24-karat gold-hued juice contains 100% of the fruit's bioactive compounds thanks to our hydraulic press method (yielding 18% more flavonoids than centrifugal juicing). The natural pectin forms a delicate cloud suspension that provides 3g soluble fiber per serving. Each bottle contains the equivalent of 12 whole fruits, with enzymes (including peroxidase and catalase) remaining active for 72 hours post-pressing. The Brix-acid ratio of 13.5:1 creates perfect harmony between sweetness and brightness. Bottled in UV-protective violet glass to preserve light-sensitive nutrients like folate and vitamin C (retains 98% after 7 days refrigerated).",
+  "nutrition": {
+    "calories": 110,
+    "macros": {
+      "carbohydrates": "26g",
+      "fiber": "3g (11% DV)",
+      "sugars": "21g"
+    },
+    "vitamins": {
+      "Vitamin C": "283% DV",
+      "Folate": "24% DV",
+      "Thiamine": "18% DV"
+    },
+    "enzymes": ["Peroxidase", "Catalase", "Pectinase"],
+    "antioxidants": ["Hesperidin", "Naringin", "Eriocitrin"],
+    "ORAC_value": 3872
+  },
+  "origin": "Mixed: Florida (oranges), Texas (grapefruit), California (lemons)",
+  "harvest_season": "Year-round (varies by citrus)",
+  "processing_method": "Hydraulic cold-press (<104°F), HPP processed",
+  "certifications": ["USDA Organic", "Non-GMO Project", "Pasteurized without heat"],
+  "price": 8.99,
+  "price_unit": "32oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1551751299-1b51cab2694c",
+    "https://images.unsplash.com/photo-1603569283847-aa295f0d016a",
+    "https://images.unsplash.com/photo-1603569283847-aa295f0d016a"
+  ],
+  "available": true,
+  "stock": 60,
+  "rating": 4.8,
+  "reviews": 178,
+  "storage_tips": "Keep refrigerated, shake gently before serving to redistribute pulp",
+  "culinary_uses": ["Morning tonic", "Cocktail mixer", "Vinaigrette base", "Sorbet ingredient"]
+},{
+  "id": 7,
+  "name": "Romanesco Broccoli",
+  "category": "vegetables",
+  "subcategory": "cruciferous",
+  "description": "This fractal-patterned heirloom from Italy's Lazio region is a geometric marvel containing Fibonacci sequence spirals (13 clockwise, 21 counterclockwise). The lime-green florets contain 3x more glucoraphanin than standard broccoli - a precursor to sulforaphane that activates when chopped. Grown in calcium-rich soils that enhance its nutty, almond-like flavor profile. Each head develops through 85 precise daily growth pulses regulated by circadian temperature fluctuations. The stems contain 22% soluble fiber (mostly pectin) that remains crisp even after cooking. Harvested at dawn when sugar concentrations peak at 5.2° Brix. A single serving provides 135% DV of vitamin K and unique compounds like indole-3-carbinol studied for cellular health benefits.",
+  "nutrition": {
+    "calories": 31,
+    "macros": {
+      "carbohydrates": "6.2g",
+      "fiber": "4.1g (15% DV)",
+      "protein": "3.7g"
+    },
+    "vitamins": {
+      "Vitamin K": "135% DV",
+      "Vitamin C": "93% DV",
+      "Folate": "23% DV"
+    },
+    "phytonutrients": {
+      "Glucoraphanin": "48mg/100g",
+      "Indole-3-carbinol": "12mg/100g"
+    },
+    "minerals": {
+      "Potassium": "14% DV",
+      "Manganese": "16% DV"
+    }
+  },
+  "origin": "Lazio, Italy",
+  "harvest_season": "September-November",
+  "growing_method": "Biodynamic lunar cycle planting",
+  "certifications": ["EU Organic", "Protected Geographical Indication"],
+  "price": 4.99,
+  "price_unit": "per head",
+  "images": [
+    "https://images.unsplash.com/photo-1603048719537-7a7a2c60d2b8",
+    "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
+    "https://images.unsplash.com/photo-1543253687-c931dcb02701"
+  ],
+  "available": true,
+  "stock": 65,
+  "rating": 4.9,
+  "reviews": 187,
+  "storage_tips": "Store stem-down in 1\" water at 34°F, lasts 2 weeks",
+  "culinary_uses": ["Fractal tempura", "Roasted with pine nuts", "Raw in salads", "Puréed soups"]
+},{
+  "id": 8,
+  "name": "Tropical Sunrise Smoothie",
+  "category": "juices",
+  "subcategory": "smoothies",
+  "description": "This velvety elixir blends organic Alphonso mango (42%), Costa Rican golden pineapple (33%), Brazilian acerola cherry (15%), and coconut water (10%) into a 24-karat-hued antioxidant powerhouse. The acerola cherries contribute 3,167mg vitamin C per 100g - 50x more than oranges - while the mango provides digestive amylase enzymes. Cold-processed at 38°F to preserve heat-sensitive bromelain from the pineapple core. Contains 5g prebiotic fiber from baobab powder and chia seeds that swell to form a gel-like consistency. The natural sweetness comes entirely from fruit (no added sugars) at 16° Brix balanced by 1.2% acidity. Each bottle delivers 2.5 servings of fruit with 100% bioavailability of carotenoids enhanced by the coconut water's medium-chain triglycerides.",
+  "nutrition": {
+    "calories": 180,
+    "macros": {
+      "carbohydrates": "42g",
+      "fiber": "5g (18% DV)",
+      "protein": "3g"
+    },
+    "vitamins": {
+      "Vitamin C": "1,127% DV",
+      "Vitamin A": "89% DV",
+      "Vitamin E": "22% DV"
+    },
+    "enzymes": ["Bromelain", "Amylase", "Papain"],
+    "antioxidants": {
+      "Beta-carotene": "4.2mg",
+      "Polyphenols": "682mg GAE"
+    },
+    "electrolytes": {
+      "Potassium": "18% DV",
+      "Magnesium": "14% DV"
+    }
+  },
+  "origin": "Global organic sources",
+  "processing_method": "Cold-blended under nitrogen atmosphere",
+  "certifications": ["USDA Organic", "Non-GMO", "Vegan"],
+  "price": 9.49,
+  "price_unit": "24oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1505576399279-565b52d4ac71",
+    "https://images.unsplash.com/photo-1546173159-315724a31696",
+    "https://images.unsplash.com/photo-1543351611-58f69d7c1781"
+  ],
+  "available": true,
+  "stock": 55,
+  "rating": 4.8,
+  "reviews": 224,
+  "storage_tips": "Keep refrigerated, shake vigorously before opening (natural separation occurs)",
+  "culinary_uses": ["Post-workout recovery", "Breakfast bowl base", "Cocktail mixer", "Frozen popsicles"]
+},{
+  "id": 9,
+  "name": "Green Defense Elixir",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "Our most potent cold-pressed blend combines Tuscan kale (35%), Persian cucumbers (25%), Granny Smith apples (20%), celery (15%), and lemon (5%) into a vibrant emerald tonic. Pressed at 2,500 PSI using a Norwalk hydraulic juicer that yields 42% more chlorophyll than centrifugal methods. Each 16oz bottle contains the equivalent of 2.5 pounds of raw vegetables with 8,290 ORAC units. The juice undergoes HPP (High Pressure Processing) at 87,000 PSI to eliminate pathogens while retaining 98% of nutrients. Notable compounds include kale's kaempferol (studied for cellular protection), cucumber's cucurbitacin E, and celery's apigenin. The natural nitrates (312mg per serving) have been shown to support circulation. Bottled in UV-filtering amber glass to protect light-sensitive compounds like folate.",
+  "nutrition": {
+    "calories": 115,
+    "macros": {
+      "carbohydrates": "27g",
+      "fiber": "2g (7% DV)",
+      "protein": "4g"
+    },
+    "vitamins": {
+      "Vitamin K": "684% DV",
+      "Vitamin C": "74% DV",
+      "Vitamin A": "62% DV"
+    },
+    "minerals": {
+      "Potassium": "28% DV",
+      "Magnesium": "19% DV"
+    },
+    "phytonutrients": {
+      "Chlorophyll": "48mg",
+      "Nitrates": "312mg",
+      "Kaempferol": "6.3mg"
+    },
+    "ORAC_value": 8290
+  },
+  "origin": "California Central Valley",
+  "processing_method": "Hydraulic cold-pressed, HPP treated",
+  "certifications": ["USDA Organic", "Kosher", "Raw"],
+  "price": 12.99,
+  "price_unit": "16oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1547592180-85f173990554",
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+  ],
+  "available": true,
+  "stock": 40,
+  "rating": 4.9,
+  "reviews": 198,
+  "storage_tips": "Refrigerate immediately, consume within 72 hours of opening",
+  "culinary_uses": ["Morning cleanse", "Mixer for shots", "Soup base", "Fermentation starter"]
+},{
+  "id": 10,
+  "name": "Ruby Red Grapefruit",
+  "category": "fruits",
+  "subcategory": "citrus",
+  "description": "Grown in the Rio Grande Valley's mineral-rich soils, these grapefruits develop their signature ruby hue through dramatic day-night temperature swings that stimulate lycopene production (up to 17mg/100g). The flesh contains 40% more antioxidants than white varieties, with a perfect 12° Brix sweetness balanced by 1.2% titratable acidity. Each fruit is hand-picked at the 'first blush' stage when naringin (the beneficial flavonoid) peaks at 28mg/g. The thick albedo contains unique pectin fibers that act as prebiotics. Grown using integrated citrus systems that incorporate guava trees as natural pest deterrents. Refrigerated within 90 minutes of harvest to preserve volatile aromatic compounds like nootkatone.",
+  "nutrition": {
+    "calories": 52,
+    "macros": {
+      "carbohydrates": "13g",
+      "fiber": "2g (7% DV)",
+      "sugars": "8.5g"
+    },
+    "vitamins": {
+      "Vitamin C": "64% DV",
+      "Vitamin A": "28% DV"
+    },
+    "phytonutrients": {
+      "Lycopene": "17mg",
+      "Naringin": "28mg/g"
+    },
+    "glycemic_index": 25
+  },
+  "origin": "Rio Grande Valley, Texas",
+  "harvest_season": "November-May",
+  "growing_method": "Integrated citrus-guava agroforestry",
+  "certifications": ["USDA Organic", "Bee Friendly"],
+  "price": 2.49,
+  "price_unit": "each",
+  "images": [
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11",
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11",
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11"
+  ],
+  "available": true,
+  "stock": 175,
+  "rating": 4.7,
+  "reviews": 143,
+  "storage_tips": "Store at 50°F to prevent chilling injury, lasts 6 weeks",
+  "culinary_uses": ["Broiled halves", "Salads", "Ceviche", "Cocktails"]
+},{
+  "id": 11,
+  "name": "Alpine Strawberries",
+  "category": "fruits",
+  "subcategory": "berries",
+  "description": "These wild-type Fragaria vesca berries from the Swiss Alps develop intense aroma from 35 volatile compounds (including methyl anthranilate) that are 8x more concentrated than commercial varieties. Each marble-sized berry contains 550 seeds that provide crunchy texture and 3g fiber per 100g. Grown at 1,200m elevation where UV exposure increases anthocyanin content to 32mg/100g. The plants are propagated from 200-year-old heirloom stock maintained in the Bern Botanical Garden. Harvested at the 'moon white' stage when sugar content reaches 14° Brix and acidity drops below 0.8%. Unlike hybrid strawberries, these retain their stem caps when picked, preserving shelf life. Contains unique ellagitannins shown to support gut microbiome diversity.",
+  "nutrition": {
+    "calories": 36,
+    "macros": {
+      "carbohydrates": "8g",
+      "fiber": "3g (11% DV)",
+      "sugars": "4.2g"
+    },
+    "vitamins": {
+      "Vitamin C": "97% DV",
+      "Folate": "6% DV"
+    },
+    "antioxidants": {
+      "Anthocyanins": "32mg",
+      "Ellagitannins": "18mg"
+    },
+    "ORAC_value": 4332
+  },
+  "origin": "Bernese Oberland, Switzerland",
+  "harvest_season": "June-July",
+  "growing_method": "Wild-simulated forest farming",
+  "certifications": ["Bio Suisse", "AlpenGOLD"],
+  "price": 8.99,
+  "price_unit": "4oz clamshell",
+  "images": [
+    "https://images.unsplash.com/photo-1464965911861-746a04b4bca6",
+    "https://images.unsplash.com/photo-1464965911861-746a04b4bca6",
+    "https://images.unsplash.com/photo-1464965911861-746a04b4bca6"
+  ],
+  "available": true,
+  "stock": 45,
+  "rating": 4.9,
+  "reviews": 87,
+  "storage_tips": "Store unwashed in single layers between paper towels",
+  "culinary_uses": ["Macarons", "Infused vinegars", "Sorbets", "Raw desserts"]
+},{
+  "id": 12,
+  "name": "Dragon Fruit (Pitaya)",
+  "category": "fruits",
+  "subcategory": "tropical",
+  "description": "This Hylocereus undatus variety grows on stone terraces in Vietnam's Mekong Delta, where the plants climb limestone pillars in symbiotic relationships with nitrogen-fixing ants. The vibrant magenta flesh contains 150% more betalains (antioxidants also found in beets) than white-fleshed varieties. Each fruit weighs precisely 400-450g when harvested after three lunar cycles. The edible black seeds provide 3g/100g omega-3 fatty acids and lignans. The peel contains prebiotic oligosaccharides that can be dried and powdered. Grown using ancient Cham agricultural techniques that require no irrigation. Naturally pollinated by nectar bats whose saliva enzymes enhance fruit set. Contains unique polysaccharides studied for gut health benefits.",
+  "nutrition": {
+    "calories": 60,
+    "macros": {
+      "carbohydrates": "13g",
+      "fiber": "3g (11% DV)",
+      "protein": "1.2g"
+    },
+    "vitamins": {
+      "Vitamin C": "9% DV",
+      "Iron": "4% DV"
+    },
+    "antioxidants": {
+      "Betalains": "28mg",
+      "Polyphenols": "120mg GAE"
+    },
+    "fatty_acids": {
+      "Omega-3": "0.4g",
+      "Omega-6": "0.8g"
+    }
+  },
+  "origin": "Mekong Delta, Vietnam",
+  "harvest_season": "May-September",
+  "growing_method": "Cham stone terrace agriculture",
+  "certifications": ["VietGAP", "Fair for Life"],
+  "price": 6.99,
+  "price_unit": "each",
+  "images": [
+    "https://images.unsplash.com/photo-1550258987-190a2d41a8ba",
+    "https://images.unsplash.com/photo-1550258987-190a2d41a8ba",
+    "https://images.unsplash.com/photo-1550258987-190a2d41a8ba"
+  ],
+  "available": true,
+  "stock": 38,
+  "rating": 4.6,
+  "reviews": 64,
+  "storage_tips": "Ripen at room temperature until slightly soft, then refrigerate",
+  "culinary_uses": ["Smoothie bowls", "Ceviche", "Cocktails", "Sorbets"]
+},{
+  "id": 13,
+  "name": "Blackcurrant Nectar",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "Made from rare 'Ben Lomond' blackcurrants grown in Scotland's Tay Valley, this intensely purple nectar contains 4x more anthocyanins than blueberries (up to 588mg/100ml). Cold-pressed within 8 hours of harvest to preserve the fragile polyphenols, then lightly pasteurized at 145°F for 15 seconds. The natural malic acid (3.2g/100ml) provides a tart complexity that balances 14° Brix sweetness. Each bottle contains the equivalent of 800 berries, delivering 380% DV vitamin C and unique cassis compounds like blackcurrant mercaptan. The juice undergoes nitrogen flushing to prevent oxidation of delicate aromatic thiols. Bottled in UV-blocking violet glass to protect light-sensitive nutrients.",
+  "nutrition": {
+    "calories": 70,
+    "macros": {
+      "carbohydrates": "17g",
+      "fiber": "1g (4% DV)",
+      "sugars": "15g"
+    },
+    "vitamins": {
+      "Vitamin C": "380% DV",
+      "Vitamin K": "28% DV"
+    },
+    "antioxidants": {
+      "Anthocyanins": "588mg",
+      "Quercetin": "12mg"
+    },
+    "ORAC_value": 8765
+  },
+  "origin": "Perthshire, Scotland",
+  "harvest_season": "July-August",
+  "processing_method": "Cold-pressed, flash pasteurized",
+  "certifications": ["Scottish Organic", "Slow Food Presidium"],
+  "price": 11.99,
+  "price_unit": "750ml bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1550258987-190a2d41a8ba",
+    "https://images.unsplash.com/photo-1550258987-190a2d41a8ba",
+    "https://images.unsplash.com/photo-1550258987-190a2d41a8ba"
+  ],
+  "available": true,
+  "stock": 28,
+  "rating": 4.8,
+  "reviews": 112,
+  "storage_tips": "Refrigerate after opening, consume within 5 days",
+  "culinary_uses": ["Kir Royale", "Sorbet base", "Vinaigrette", "Marinades"]
+},{
+  "id": 14,
+  "name": "Red Russian Kale",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "description": "This heirloom variety from Siberia's Kola Peninsula features stunning purple veins containing 3x more anthocyanins than green kale. The flat, tender leaves develop a sweet, almost nutty flavor after the first frost due to natural cryoprotectant sugars (up to 5.8° Brix). Grown in biochar-amended soils that increase mineral absorption by 40%, resulting in leaves with exceptional magnesium (22% DV) and calcium (15% DV) content. The serrated edges contain specialized trichomes that secrete protective flavonoids when brushed. Harvested at the 8-leaf stage using traditional Sami knife techniques that stimulate regrowth. Contains unique glucosinolates like glucoraphanin and gluconasturtiin that convert to cancer-fighting compounds when chopped.",
+  "nutrition": {
+    "calories": 35,
+    "macros": {
+      "carbohydrates": "6g",
+      "fiber": "1.3g (5% DV)",
+      "protein": "2.9g"
+    },
+    "vitamins": {
+      "Vitamin K": "512% DV",
+      "Vitamin A": "133% DV",
+      "Vitamin C": "134% DV"
+    },
+    "minerals": {
+      "Manganese": "27% DV",
+      "Copper": "10% DV"
+    },
+    "phytonutrients": {
+      "Anthocyanins": "36mg",
+      "Glucosinolates": "42μmol/g"
+    }
+  },
+  "origin": "Kola Peninsula, Russia",
+  "harvest_season": "June-October (best after frost)",
+  "growing_method": "Biochar-enhanced Arctic agriculture",
+  "certifications": ["EU Organic", "Biodynamic"],
+  "price": 4.25,
+  "price_unit": "per bunch",
+  "images": [
+    "https://images.unsplash.com/photo-1543253687-c931dcb02701",
+    "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
+    "https://images.unsplash.com/photo-1603048719537-7a7a2c60d2b8"
+  ],
+  "available": true,
+  "stock": 88,
+  "rating": 4.8,
+  "reviews": 156,
+  "storage_tips": "Wrap in damp linen cloth, store at 34°F for up to 2 weeks",
+  "culinary_uses": ["Fermented kvass", "Crispy chips", "Massaged salads", "Soup garnish"]
+},
+{
+  "id": 15,
+  "name": "Black Spanish Radish",
+  "category": "vegetables",
+  "subcategory": "root",
+  "description": "This medieval variety from Spain's Castilla y León region develops an inky black skin protecting crisp white flesh with a fiery, horseradish-like kick. The taproots grow 6-8 long in volcanic soils, concentrating selenium (14% DV) and sulfur compounds (glucosinolates at 28μmol/g). The skin contains unique melanin-like pigments with antioxidant properties. Harvested at 90 days when isothiocyanate levels peak for maximum digestive benefit. Traditionally used in herbal medicine for liver support due to raphanin compounds. Grown using 15th-century Moorish irrigation techniques that enhance mineral uptake. The greens are edible and contain 6x more nutrients than the root.",
+  "nutrition": {
+    "calories": 20,
+    "macros": {
+      "carbohydrates": "3.4g",
+      "fiber": "1.9g (7% DV)",
+      "protein": "0.7g"
+    },
+    "vitamins": {
+      "Vitamin C": "29% DV",
+      "Folate": "7% DV"
+    },
+    "minerals": {
+      "Selenium": "14% DV",
+      "Potassium": "8% DV"
+    },
+    "phytonutrients": {
+      "Glucosinolates": "28μmol/g",
+      "Isothiocyanates": "1.2mg/g"
+    }
+  },
+  "origin": "Castilla y León, Spain",
+  "harvest_season": "October-December",
+  "growing_method": "Moorish acequia irrigation",
+  "certifications": ["EU Organic", "Arca del Gusto"],
+  "price": 3.75,
+  "price_unit": "per pound",
+  "images": [
+    "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37",
+    "https://images.unsplash.com/photo-1530137073520-3a12f18a48c6",
+    "https://images.unsplash.com/photo-1447175008436-054170c2e979"
+  ],
+  "available": true,
+  "stock": 72,
+  "rating": 4.6,
+  "reviews": 94,
+  "storage_tips": "Store in damp sand at 32°F for 5+ month shelf life",
+  "culinary_uses": ["Fermented kimchi", "Horseradish substitute", "Roasted chips", "Liver cleanse tonics"]
+},
+{
+  "id": 16,
+  "name": "Purple Majesty Smoothie",
+  "category": "juices",
+  "subcategory": "smoothies",
+  "description": "This vibrant blend combines organic acai (32%), maqui berry (18%), blackcurrant (15%), purple carrot (12%), and coconut milk (23%) into a 5,000 ORAC unit powerhouse. The acai is freeze-dried within 24 hours of Amazonian harvest to preserve 98% of anthocyanins (475mg/100g). Maqui berries contribute delphinidin glycosides shown to support metabolic health. Cold-processed below 104°F to protect heat-sensitive polyphenols. Contains 7g prebiotic fiber from baobab and camu camu powders that feed gut microbiota. The natural sweetness comes entirely from fruit (14° Brix) with no added sugars. Bottled in light-blocking violet glass to preserve delicate phytochemicals. Each serving provides 3x the RDI of manganese from the maqui berries.",
+  "nutrition": {
+    "calories": 210,
+    "macros": {
+      "carbohydrates": "28g",
+      "fiber": "7g (25% DV)",
+      "protein": "4g"
+    },
+    "vitamins": {
+      "Vitamin C": "890% DV",
+      "Vitamin K": "45% DV"
+    },
+    "minerals": {
+      "Manganese": "310% DV",
+      "Copper": "28% DV"
+    },
+    "antioxidants": {
+      "Anthocyanins": "612mg",
+      "Ellagic acid": "42mg"
+    },
+    "ORAC_value": 5020
+  },
+  "origin": "Multi-origin superfoods",
+  "processing_method": "Cold-blended under argon atmosphere",
+  "certifications": ["USDA Organic", "Vegan", "Rainforest Alliance"],
+  "price": 10.99,
+  "price_unit": "16oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1546173159-315724a31696",
+    "https://images.unsplash.com/photo-1543351611-58f69d7c1781",
+    "https://images.unsplash.com/photo-1505576399279-565b52d4ac71"
+  ],
+  "available": true,
+  "stock": 42,
+  "rating": 4.9,
+  "reviews": 203,
+  "storage_tips": "Keep refrigerated, shake vigorously before opening (natural settling occurs)",
+  "culinary_uses": ["Acai bowls", "Post-workout recovery", "Overnight oats", "Smoothie pops"]
+},{
+  "id": 17,
+  "name": "Turmeric Sunrise Shot",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "This 2oz wellness shot combines organic turmeric root (55%), ginger (25%), carrot (15%), and black pepper (5%) in precise Ayurvedic ratios. Cold-pressed at 3,000 PSI to extract maximum curcuminoids (up to 185mg per shot) with 98% bioavailability enhancement from the piperine in black pepper. The turmeric is grown in Sri Lanka's red laterite soils containing natural iron oxides that increase curcumin content by 22%. Bottled within 15 minutes of pressing to preserve volatile zingiberene compounds from the ginger. Each shot delivers 650% DV manganese and clinically-studied levels of anti-inflammatory compounds. Packaged in amber glass vials with oxygen-scavenging caps for 28-day shelf life.",
+  "nutrition": {
+    "calories": 25,
+    "macros": {
+      "carbohydrates": "5g",
+      "fiber": "0.5g (2% DV)",
+      "protein": "0.3g"
+    },
+    "vitamins": {
+      "Vitamin C": "12% DV",
+      "Vitamin B6": "8% DV"
+    },
+    "minerals": {
+      "Manganese": "650% DV",
+      "Iron": "4% DV"
+    },
+    "active_compounds": {
+      "Curcumin": "185mg",
+      "Gingerols": "42mg",
+      "Piperine": "1.8mg"
+    }
+  },
+  "origin": "Sri Lanka (turmeric), Peru (ginger)",
+  "processing_method": "Hyperbaric cold-press",
+  "certifications": ["USDA Organic", "Ayurvedic Certified"],
+  "price": 4.99,
+  "price_unit": "2oz vial (pack of 6)",
+  "images": [
+    "https://images.unsplash.com/photo-1547592180-85f173990554",
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+  ],
+  "available": true,
+  "stock": 36,
+  "rating": 4.7,
+  "reviews": 178,
+  "storage_tips": "Refrigerate, shake gently before use (natural separation occurs)",
+  "culinary_uses": ["Morning tonic", "Soup flavor booster", "Marinade base", "Wellness shots"]
+},{
+  "id": 18,
+  "name": "Purple Sprouting Broccoli",
+  "category": "vegetables",
+  "subcategory": "cruciferous",
+  "description": "This heritage variety from England's Cornwall coast develops vibrant purple florets containing 8x more anthocyanins than green broccoli. Grown in iodine-rich seaside soils that boost thyroid-supporting compounds, each spear contains sulforaphane precursors at 58μmol/g - activated when chopped. The stems develop a natural asparagus-like sweetness (6.2° Brix) from ocean breezes that stress the plants. Harvested at dawn when glucosinolate concentrations peak, using traditional Celtic moon phase timing. Contains unique cornishitin compounds studied for cellular health benefits. The yellow pollen on florets is edible and rich in quercetin.",
+  "nutrition": {
+    "calories": 35,
+    "macros": {
+      "carbohydrates": "5g",
+      "fiber": "3.8g (14% DV)",
+      "protein": "4g"
+    },
+    "vitamins": {
+      "Vitamin K": "245% DV",
+      "Vitamin C": "185% DV",
+      "Folate": "27% DV"
+    },
+    "minerals": {
+      "Iodine": "32% DV",
+      "Chromium": "18% DV"
+    },
+    "phytonutrients": {
+      "Glucoraphanin": "58μmol/g",
+      "Anthocyanins": "48mg"
+    }
+  },
+  "origin": "Cornwall, UK",
+  "harvest_season": "February-April",
+  "growing_method": "Seaside biodynamics with kelp amendments",
+  "certifications": ["Soil Association Organic", "Demeter Biodynamic"],
+  "price": 5.75,
+  "price_unit": "per bunch",
+  "images": [
+    "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c",
+    "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
+    "https://images.unsplash.com/photo-1543253687-c931dcb02701"
+  ],
+  "available": true,
+  "stock": 62,
+  "rating": 4.8,
+  "reviews": 134,
+  "storage_tips": "Stand stems in 1\" seawater, store at 34°F with 95% humidity",
+  "culinary_uses": ["Tempura", "Fermented pickles", "Seafood pairings", "Raw in salads"]
+},{
+  "id": 19,
+  "name": "Wild Persimmon Nectar",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "Pressed from wild-foraged American persimmons (Diospyros virginiana) in Missouri's Ozark Mountains, this seasonal elixir captures the fruit's honey-like sweetness (22° Brix) balanced with tannic complexity. Each bottle contains the essence of 30 frost-touched persimmons, rich in rare fisetin flavonoids (28mg/100ml) shown to support brain health. Cold-extracted using traditional Cherokee basket pressing methods that preserve 92% of the fruit's 47 carotenoid compounds. The juice naturally clarifies over 6 weeks as pectins settle, developing nuanced notes of caramel and spice. Contains no added water or sugars, with natural viscosity from 4.2g/100ml soluble fiber.",
+  "nutrition": {
+    "calories": 120,
+    "macros": {
+      "carbohydrates": "31g",
+      "fiber": "4.2g (15% DV)",
+      "sugars": "24g"
+    },
+    "vitamins": {
+      "Vitamin A": "155% DV",
+      "Vitamin C": "28% DV"
+    },
+    "antioxidants": {
+      "Fisetin": "28mg",
+      "Beta-cryptoxanthin": "1.8mg"
+    },
+    "ORAC_value": 5830
+  },
+  "origin": "Ozark Mountains, Missouri",
+  "harvest_season": "October-November (post-frost)",
+  "processing_method": "Wild-foraged, basket-pressed",
+  "certifications": ["Certified Wild Harvest", "Slow Food Ark of Taste"],
+  "price": 14.99,
+  "price_unit": "500ml bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11",
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11",
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11"
+  ],
+  "available": true,
+  "stock": 22,
+  "rating": 4.9,
+  "reviews": 87,
+  "storage_tips": "Store upright, sediment is natural - shake before serving",
+  "culinary_uses": ["Pancake syrup", "BBQ glaze", "Cheese pairing", "Hot toddy base"]
+},{
+  "id": 20,
+  "name": "Cacao Maca Energy Elixir",
+  "category": "juices",
+  "subcategory": "smoothies",
+  "description": "This adaptogenic blend combines Peruvian raw cacao (28%), maca root (15%), heirloom banana (22%), and coconut water (35%) into a velvety energy tonic. The cacao is stone-ground below 115°F to preserve enzymatic activity and flavonols (48mg epicatechin per serving). Contains 1.2mg/g macamides from gelatinized maca root - bioactive compounds shown to support endocrine function. Sweetened naturally with banana (18° Brix) and enhanced with 11 trace minerals from Himalayan pink salt. The formula includes tocopherol-rich coconut water for electrolyte balance and natural vitamin E (12% DV). Bottled in Miron glass to protect light-sensitive nutrients.",
+  "nutrition": {
+    "calories": 190,
+    "macros": {
+      "carbohydrates": "24g",
+      "fiber": "6g (21% DV)",
+      "protein": "5g"
+    },
+    "vitamins": {
+      "Vitamin B6": "32% DV",
+      "Vitamin E": "12% DV"
+    },
+    "minerals": {
+      "Iron": "18% DV",
+      "Magnesium": "24% DV"
+    },
+    "adaptogens": {
+      "Macamides": "1.2mg/g",
+      "Epicatechin": "48mg"
+    },
+    "ORAC_value": 8920
+  },
+  "origin": "Peru (cacao/maca), Ecuador (bananas)",
+  "processing_method": "Stone-ground, never heated",
+  "certifications": ["USDA Organic", "Fair Trade", "Raw"],
+  "price": 11.49,
+  "price_unit": "12oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1546173159-315724a31696",
+    "https://images.unsplash.com/photo-1543351611-58f69d7c1781",
+    "https://images.unsplash.com/photo-1505576399279-565b52d4ac71"
+  ],
+  "available": true,
+  "stock": 38,
+  "rating": 4.7,
+  "reviews": 156,
+  "storage_tips": "Refrigerate, separation is natural - shake vigorously",
+  "culinary_uses": ["Pre-workout fuel", "Coffee alternative", "Oatmeal swirl", "Energy balls"]
+},{
+  "id": 21,
+  "name": "Beetroot Kvass Elixir",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "This living probiotic tonic follows traditional Ukrainian fermentation methods using organic Chioggia beets (78%), blackstrap molasses (12%), and sea salt (10%). Cold-pressed beets undergo 28-day lacto-fermentation in oak barrels, developing 8 billion CFU probiotics per ounce. The striped beets provide unique betalain compounds (vulgaxanthin I & II) that remain bioactive due to pH-controlled fermentation. Contains natural nitrates (412mg/serving) shown to support circulation, plus fermentation-derived B vitamins (including B12 analogs). Unpasteurized and unfiltered - the cloudy sediment contains beneficial yeast strains.",
+  "nutrition": {
+    "calories": 45,
+    "macros": {
+      "carbohydrates": "10g",
+      "fiber": "1g (4% DV)",
+      "protein": "1.5g"
+    },
+    "vitamins": {
+      "Folate": "28% DV",
+      "B12 analogs": "18% DV"
+    },
+    "minerals": {
+      "Iron": "14% DV",
+      "Potassium": "16% DV"
+    },
+    "probiotics": {
+      "L. plantarum": "3.2B CFU/oz",
+      "S. cerevisiae": "4.8B CFU/oz"
+    },
+    "nitrates": "412mg"
+  },
+  "origin": "Poltava, Ukraine (method), California (beets)",
+  "processing_method": "Barrel-fermented, cold-pressed",
+  "certifications": ["USDA Organic", "Raw", "Non-GMO"],
+  "price": 9.99,
+  "price_unit": "16oz growler",
+  "images": [
+    "https://images.unsplash.com/photo-1547592180-85f173990554",
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+  ],
+  "available": true,
+  "stock": 29,
+  "rating": 4.6,
+  "reviews": 112,
+  "storage_tips": "Keep refrigerated, open daily to release gases",
+  "culinary_uses": ["Bloody Mary mixer", "Digestive tonic", "Borscht base", "Marinades"]
+},{
+  "id": 22,
+  "name": "Mangosteen (Queen of Fruits)",
+  "category": "fruits",
+  "subcategory": "tropical",
+  "description": "Grown in Thailand's Chanthaburi province, these royal purple mangosteens contain 43 xanthone compounds in their arils and rind - including alpha-mangostin studied for its antioxidant properties. The fruit develops under precise 85% humidity and 82°F conditions, forming 5-8 perfectly segmented lobes with snow-white flesh that melts at 28°C. Hand-harvested using traditional bamboo poles when the calyx turns from green to brown (indicating 16° Brix sweetness). The thick purple rind contains tannins used in traditional medicine, while the flesh provides 5.4g/100g of prebiotic oligosaccharides. Each fruit is individually wrapped in banana leaves during transport to prevent bruising.",
+  "nutrition": {
+    "calories": 63,
+    "macros": {
+      "carbohydrates": "15g",
+      "fiber": "5.1g (18% DV)",
+      "sugars": "12g"
+    },
+    "vitamins": {
+      "Vitamin C": "12% DV",
+      "Folate": "8% DV"
+    },
+    "phytonutrients": {
+      "Xanthones": "43 compounds",
+      "Alpha-mangostin": "4.2mg/g"
+    }
+  },
+  "origin": "Chanthaburi, Thailand",
+  "harvest_season": "May-September",
+  "growing_method": "Canopy-shaded polyculture",
+  "certifications": ["Thai Organic", "GI Protection"],
+  "price": 7.99,
+  "price_unit": "each",
+  "images": [
+    "https://images.unsplash.com/photo-1550258987-190a2d41a8ba",
+    "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e",
+    "https://images.unsplash.com/photo-1601046935673-3f8cfa0bcbb0"
+  ],
+  "available": true,
+  "stock": 48,
+  "rating": 4.9,
+  "reviews": 92,
+  "storage_tips": "Store at 50°F with 90% humidity, do not refrigerate",
+  "culinary_uses": ["Fresh eating", "Sorbets", "Herbal teas (rind)", "Salad garnish"]
+},{
+  "id": 23,
+  "name": "Arctic Cloudberry",
+  "category": "fruits",
+  "subcategory": "berries",
+  "description": "Wild-harvested above the Arctic Circle in Norway's Finnmark region, these amber-colored berries develop under 24-hour midnight sun, accumulating 3x more vitamin C (158% DV) than oranges. The delicate berries grow single per stem in acidic peat bogs, developing natural benzoic acid that acts as a preservative. Each berry contains 8-12 tiny seeds providing 4.2g/100g omega-3 fatty acids. Harvested during the 3-week golden window when berries detach easily (indicating 9.5° Brix sweetness). Frozen within 2 hours of picking to preserve volatile aroma compounds like 4-(4-hydroxyphenyl)-2-butanone. Traditionally used by Sami people for immune support during winter months.",
+  "nutrition": {
+    "calories": 51,
+    "macros": {
+      "carbohydrates": "8g",
+      "fiber": "3.1g (11% DV)",
+      "omega-3": "0.8g"
+    },
+    "vitamins": {
+      "Vitamin C": "158% DV",
+      "Vitamin E": "18% DV"
+    },
+    "antioxidants": {
+      "Ellagic acid": "32mg",
+      "Quercetin": "8.4mg"
+    }
+  },
+  "origin": "Finnmark, Norway",
+  "harvest_season": "July (3-week window)",
+  "growing_method": "Wild boreal bog ecosystems",
+  "certifications": ["EU Organic", "Protected Designation"],
+  "price": 24.99,
+  "price_unit": "4oz frozen",
+  "images": [
+    "https://images.unsplash.com/photo-1464965911861-746a04b4bca6",
+    "https://images.unsplash.com/photo-1498557850523-fd3d118b962e",
+    "https://images.unsplash.com/photo-1425934398893-310a009a77f9"
+  ],
+  "available": true,
+  "stock": 19,
+  "rating": 4.8,
+  "reviews": 67,
+  "storage_tips": "Keep frozen, thaw slowly at 40°F to preserve texture",
+  "culinary_uses": ["Jam", "Liqueurs", "Skyr topping", "Nordic desserts"]
+},
+{
+  "id": 24,
+  "name": "Water Spinach (Kangkong)",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "description": "This aquatic variety grows in Vietnam's Mekong Delta floodplains, where tidal rhythms deliver natural nutrients to its hollow stems. The arrow-shaped leaves contain 6x more iron (22% DV) than terrestrial spinach due to anaerobic soil conditions. Harvested at 25-day intervals using traditional bamboo rafts, the stems exude a milky latex rich in ipomoeassin F (studied for metabolic benefits). Grows 6 per day during monsoon season, requiring daily harvesting at dawn when nitrate levels are lowest. The stems remain crisp when stir-fried due to their unique aerenchyma cell structure that stores oxygen. Traditionally prepared with fermented shrimp paste to enhance mineral absorption.",
+  "nutrition": {
+    "calories": 19,
+    "macros": {
+      "carbohydrates": "3g",
+      "fiber": "2g (7% DV)",
+      "protein": "2.6g"
+    },
+    "vitamins": {
+      "Vitamin A": "47% DV",
+      "Vitamin K": "312% DV"
+    },
+    "minerals": {
+      "Iron": "22% DV",
+      "Calcium": "8% DV"
+    },
+    "phytonutrients": {
+      "Ipomoeassin F": "0.8mg/g",
+      "Lutein": "12mg"
+    }
+  },
+  "origin": "Mekong Delta, Vietnam",
+  "harvest_season": "Year-round (peak May-Nov)",
+  "growing_method": "Aquatic floodplain cultivation",
+  "certifications": ["VietGAP", "ASC Aquaculture"],
+  "price": 3.29,
+  "price_unit": "per bunch",
+  "images": [
+    "https://images.unsplash.com/photo-1543253687-c931dcb02701",
+    "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
+    "https://images.unsplash.com/photo-1603048719537-7a7a2c60d2b8"
+  ],
+  "available": true,
+  "stock": 84,
+  "rating": 4.5,
+  "reviews": 53,
+  "storage_tips": "Stand stems in 1\" water, cover leaves with damp cloth",
+  "culinary_uses": ["Stir-fries", "Sinigang soup", "Pickled stems", "Raw in salads"]
+},{
+  "id": 25,
+  "name": "Sea Buckthorn Nectar",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "Pressed from wild Himalayan sea buckthorn berries harvested at 3,200m altitude, this vibrant orange nectar contains 12x more vitamin C (1,100% DV) than oranges. The berries grow in nitrogen-poor soils, forcing them to produce rare omega-7 fatty acids (palmitoleic acid at 32% of oil content). Cold-pressed at -4°C to preserve the delicate 186 bioactive compounds, including sea buckthorn flavonoids A-K. The juice naturally separates into three layers: carotenoid-rich oil (top), vitamin-packed juice (middle), and sediment containing 2.3g/100ml immune-supporting polysaccharides. Bottled in UV-resistant amber glass with argon gas flush to prevent oxidation of fragile nutrients.",
+  "nutrition": {
+    "calories": 82,
+    "macros": {
+      "carbohydrates": "10g",
+      "omega-7": "1.2g",
+      "plant_sterols": "0.4g"
+    },
+    "vitamins": {
+      "Vitamin C": "1,100% DV",
+      "Vitamin E": "42% DV"
+    },
+    "antioxidants": {
+      "Quercetin": "28mg",
+      "Isorhamnetin": "14mg"
+    }
+  },
+  "origin": "Himalayas, Nepal",
+  "harvest_season": "September-October",
+  "processing_method": "Cryo-pressed (-4°C)",
+  "certifications": ["Wildcrafted", "Organic", "Fair Trade"],
+  "price": 18.99,
+  "price_unit": "8oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1547592180-85f173990554",
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+  ],
+  "available": true,
+  "stock": 27,
+  "rating": 4.9,
+  "reviews": 114,
+  "storage_tips": "Refrigerate upright, shake gently before use",
+  "culinary_uses": ["Immunity shots", "Smoothie booster", "Salad dressing", "Face masks"]
+},{
+  "id": 26,
+  "name": "Mizuna Kyoto Red",
+  "category": "vegetables",
+  "subcategory": "cruciferous",
+  "description": "This Japanese heirloom mustard green develops deep burgundy veins when grown in Kyoto's mineral-rich kyo-yasai soils. The serrated leaves contain 6-methoxy-2-benzoxazolinone (MBOA), a natural insect deterrent that also stimulates human phase-2 detox enzymes. Grown using 17th-century shinden farming methods with morning mist irrigation, developing 18% more glucosinolates than conventional mizuna. Harvested at the 12-leaf stage using traditional hasami scissors to prevent oxidative stress. The stems exude a peppery-sweet latex rich in myrosinase enzymes that activate cancer-fighting sulforaphane when chewed.",
+  "nutrition": {
+    "calories": 22,
+    "macros": {
+      "carbohydrates": "3g",
+      "fiber": "2.1g (8% DV)",
+      "protein": "2.8g"
+    },
+    "vitamins": {
+      "Vitamin K": "418% DV",
+      "Vitamin C": "97% DV"
+    },
+    "phytonutrients": {
+      "Glucosinolates": "38μmol/g",
+      "MBOA": "1.2mg/g"
+    }
+  },
+  "origin": "Kyoto, Japan",
+  "harvest_season": "October-April",
+  "growing_method": "Kyo-yasai traditional agriculture",
+  "certifications": ["JAS Organic", "GIAHS Designated"],
+  "price": 6.25,
+  "price_unit": "4oz bunch",
+  "images": [
+    "https://images.unsplash.com/photo-1584270354949-c26b0d5b4a0c",
+    "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
+    "https://images.unsplash.com/photo-1543253687-c931dcb02701"
+  ],
+  "available": true,
+  "stock": 57,
+  "rating": 4.7,
+  "reviews": 89,
+  "storage_tips": "Wrap in washi paper, store at 34°F with 95% humidity",
+  "culinary_uses": ["Nabemono hot pots", "Tempura", "Pickled tsukemono", "Salad confetti"]
+},{
+  "id": 27,
+  "name": "Oca Rainbow Tubers",
+  "category": "vegetables",
+  "subcategory": "root",
+  "description": "These Andean tubers (Oxalis tuberosa) grow at 3,800m elevation in Peru's Sacred Valley, developing vibrant yellow, pink, and purple flesh from anthocyanins and carotenoids. The knobby tubers undergo a 10-day sun-curing process called kaya, converting bitter oxalic acid into sweet malic acid (increasing Brix from 4° to 11°). Each tuber contains unique cyclotides - circular proteins studied for their stability and therapeutic potential. Grown in traditional waru waru raised beds that regulate temperature through water channels. The leaves are edible and contain high oxalate oxidase activity, useful for gluten digestion.",
+  "nutrition": {
+    "calories": 55,
+    "macros": {
+      "carbohydrates": "12g",
+      "fiber": "3.5g (13% DV)",
+      "protein": "1.2g"
+    },
+    "vitamins": {
+      "Vitamin C": "28% DV",
+      "B6": "14% DV"
+    },
+    "minerals": {
+      "Potassium": "11% DV",
+      "Iron": "8% DV"
+    },
+    "unique_compounds": {
+      "Cyclotides": "0.8mg/g",
+      "Oxalate_oxidase": "42U/g"
+    }
+  },
+  "origin": "Sacred Valley, Peru",
+  "harvest_season": "May-June (post-kaya curing)",
+  "growing_method": "Waru waru raised bed systems",
+  "certifications": ["Andean Organic", "Slow Food Ark"],
+  "price": 8.50,
+  "price_unit": "per pound",
+  "images": [
+    "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37",
+    "https://images.unsplash.com/photo-1530137073520-3a12f18a48c6",
+    "https://images.unsplash.com/photo-1447175008436-054170c2e979"
+  ],
+  "available": true,
+  "stock": 34,
+  "rating": 4.6,
+  "reviews": 76,
+  "storage_tips": "Store in dry peat moss at 45°F for 6+ month dormancy",
+  "culinary_uses": ["Roasted like potatoes", "Chuño freeze-drying", "Sweet jams", "Fermented chicha"]
+},{
+  "id": 28,
+  "name": "Acerola Cherry Boost",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "Pressed from organic acerola cherries grown in Brazil's Cerrado biome, this tart juice delivers 3,167mg vitamin C per 100ml - 50x more than oranges. The cherries are flash-frozen within 22 minutes of harvest to preserve fragile ascorbate oxidase inhibitors. Cold-pressed at 4°C to maintain 98% of the fruit's 47 phenolic compounds, including unique malpighin flavonoids. The juice naturally separates into three phases: vitamin-rich foam (top), anthocyanin-loaded liquid (middle), and pulp containing 4g/100ml prebiotic galactooligosaccharides. Bottled in Miron glass to protect against light degradation of nutrients.",
+  "nutrition": {
+    "calories": 45,
+    "macros": {
+      "carbohydrates": "10g",
+      "fiber": "1.2g (4% DV)",
+      "sugars": "8g"
+    },
+    "vitamins": {
+      "Vitamin C": "3,300% DV",
+      "Vitamin A": "22% DV"
+    },
+    "antioxidants": {
+      "Anthocyanins": "182mg",
+      "Malpighin": "14mg"
+    }
+  },
+  "origin": "Cerrado, Brazil",
+  "harvest_season": "November-March",
+  "processing_method": "Cryo-pressed (4°C), never heated",
+  "certifications": ["Brazil Organic", "Vegan", "Non-GMO"],
+  "price": 16.99,
+  "price_unit": "8oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11",
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11",
+    "https://images.unsplash.com/photo-1577234286642-fc512a5f8f11"
+  ],
+  "available": true,
+  "stock": 41,
+  "rating": 4.9,
+  "reviews": 132,
+  "storage_tips": "Refrigerate upright, shake gently before use",
+  "culinary_uses": ["Immunity shots", "Smoothie booster", "Fermented shrubs", "Cocktail mixer"]
+},{
+  "id": 29,
+  "name": "Sacha Inchi Protein Elixir",
+  "category": "juices",
+  "subcategory": "smoothies",
+  "description": "This Amazonian superfood blend combines sacha inchi seeds (38%), lucuma (22%), camu camu (15%), and coconut milk (25%) into a creamy omega-3 powerhouse. The sacha inchi is cold-milled below 115°F to preserve its 48% complete protein content and 9:1 omega-3 to omega-6 ratio. Lucuma adds natural caramel notes (14° Brix) while providing rare cyclopropane fatty acids. Camu camu contributes 2,800mg vitamin C per 100g - the highest of any known fruit. The formula includes tocopherol-rich coconut milk to enhance absorption of fat-soluble nutrients. Bottled in light-blocking violet glass with oxygen-absorbing caps.",
+  "nutrition": {
+    "calories": 220,
+    "macros": {
+      "protein": "14g",
+      "omega-3": "8g",
+      "fiber": "7g (25% DV)"
+    },
+    "vitamins": {
+      "Vitamin C": "1,800% DV",
+      "Vitamin E": "32% DV"
+    },
+    "minerals": {
+      "Magnesium": "28% DV",
+      "Zinc": "14% DV"
+    },
+    "amino_acids": {
+      "Tryptophan": "128mg",
+      "Lysine": "322mg"
+    }
+  },
+  "origin": "Peruvian Amazon",
+  "processing_method": "Cold-milled, never heated",
+  "certifications": ["USDA Organic", "FairWild", "Paleo"],
+  "price": 14.50,
+  "price_unit": "12oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1546173159-315724a31696",
+    "https://images.unsplash.com/photo-1543351611-58f69d7c1781",
+    "https://images.unsplash.com/photo-1505576399279-565b52d4ac71"
+  ],
+  "available": true,
+  "stock": 37,
+  "rating": 4.8,
+  "reviews": 147,
+  "storage_tips": "Refrigerate, separation is natural - shake vigorously",
+  "culinary_uses": ["Post-workout recovery", "Keto meal replacement", "Overnight oats", "Baking substitute"]
+},{
+  "id": 30,
+  "name": "Noni Fermented Tonic",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "This traditional Polynesian remedy is made from wild-harvested noni fruit (Morinda citrifolia) fermented for 90 days in Hawaiian koa wood barrels. The fermentation process converts bitter iridoids into bioactive damnacanthal and scopoletin compounds studied for cellular health. Each batch develops a natural kombucha-like SCOBY that adds probiotics (12 strains, 5B CFU/oz). The juice is pressed at peak fermentation when pH reaches 3.4, then aged in volcanic rock vessels to enhance mineral content. Contains 18 amino acids and xeronine precursors that activate enzyme systems. Traditionally consumed at dawn for maximum bioavailability.",
+  "nutrition": {
+    "calories": 35,
+    "macros": {
+      "carbohydrates": "8g",
+      "organic_acids": "2.1g",
+      "protein": "0.8g"
+    },
+    "enzymes": {
+      "Proxeronase": "42U/ml",
+      "Catalase": "18U/ml"
+    },
+    "probiotics": {
+      "Total_CFU": "5 billion/oz",
+      "Strains": "12"
+    },
+    "minerals": {
+      "Selenium": "22% DV",
+      "Germanium": "0.8ppm"
+    }
+  },
+  "origin": "Big Island, Hawaii",
+  "processing_method": "Wood-barrel fermented",
+  "certifications": ["Wildcrafted", "Organic", "Halal"],
+  "price": 22.99,
+  "price_unit": "16oz bottle",
+  "images": [
+    "https://images.unsplash.com/photo-1547592180-85f173990554",
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+    "https://images.unsplash.com/photo-1490645935967-10de6ba17061"
+  ],
+  "available": true,
+  "stock": 23,
+  "rating": 4.5,
+  "reviews": 98,
+  "storage_tips": "Refrigerate after opening, sediment contains beneficial cultures",
+  "culinary_uses": ["Wellness shots", "Marinade tenderizer", "Fermentation starter", "Topical compresses"]
+},
+{
+  "id": 31,
+  "name": "Buddha's Hand Citron",
+  "category": "fruits",
+  "subcategory": "citrus",
+  "description": "This sacred citrus variety from China's Yunnan province grows in finger-like segments emitting intense bergamot aroma. The rind contains 5x more limonene (92% of essential oils) than standard citrus, with no bitter pith or juice. Traditionally used in Buddhist temples as natural air purifier - one fruit can scent an entire room for weeks. Grown on terraced mountainsides using 800-year-old Daoist cultivation methods that enhance aromatic compounds. The zest contains unique auraptene flavonoids shown to support neurological health. Entirely edible raw, with a floral-candied flavor profile.",
+  "nutrition": {
+    "calories": 24,
+    "macros": {
+      "carbohydrates": "5g",
+      "fiber": "3g (11% DV)"
+    },
+    "essential_oils": {
+      "Limonene": "92%",
+      "γ-Terpinene": "3.2%"
+    },
+    "vitamins": {
+      "Vitamin C": "18% DV"
+    }
+  },
+  "origin": "Yunnan, China",
+  "harvest_season": "November-January",
+  "growing_method": "Daoist terrace farming",
+  "certifications": ["China Organic", "Cultural Heritage"],
+  "price": 14.99,
+  "price_unit": "each",
+  "images": [
+    "https://example.com/buddhas-hand1.jpg",
+    "https://example.com/buddhas-hand2.jpg",
+    "https://example.com/buddhas-hand3.jpg"
+  ],
+  "available": true,
+  "stock": 28,
+  "rating": 4.7,
+  "reviews": 63,
+  "storage_tips": "Display at room temperature, lasts 3+ months",
+  "culinary_uses": ["Candied peel", "Cocktail garnishes", "Tea blending", "Aromatherapy"]
+},{
+  "id": 32,
+  "name": "Arctic Bramble Berry",
+  "category": "fruits",
+  "subcategory": "berries",
+  "description": "Wild-harvested in Swedish Lapland, these rare golden berries grow in 24-hour daylight during midsummer, developing 18% sugar content (highest of any Rubus species). The berries contain unique 'frost polyphenols' that prevent ice crystal formation at -22°F. Traditionally preserved by the Sami people through freeze-drying on wooden racks. Each berry has 3x more ellagitannins than raspberries, contributing to their long shelf life. The seeds contain omega-3 fatty acids that remain stable even after years of frozen storage.",
+  "nutrition": {
+    "calories": 47,
+    "macros": {
+      "carbohydrates": "11g",
+      "fiber": "6g (21% DV)"
+    },
+    "antioxidants": {
+      "Ellagitannins": "42mg",
+      "Frost_polyphenols": "18mg"
+    },
+    "vitamins": {
+      "Vitamin C": "35% DV"
+    }
+  },
+  "origin": "Lapland, Sweden",
+  "harvest_season": "July (2-week window)",
+  "growing_method": "Wild tundra growth",
+  "certifications": ["EU Organic", "Slow Food Presidium"],
+  "price": 29.99,
+  "price_unit": "3oz freeze-dried",
+  "images": [
+    "https://example.com/arctic-berry1.jpg",
+    "https://example.com/arctic-berry2.jpg",
+    "https://example.com/arctic-berry3.jpg"
+  ],
+  "available": true,
+  "stock": 15,
+  "rating": 4.9,
+  "reviews": 42,
+  "storage_tips": "Keep frozen or freeze-dried, lasts 3 years",
+  "culinary_uses": ["Muesli", "Infused vodkas", "Energy bars", "Nordic desserts"]
+},{
+  "id": 33,
+  "name": "Miracle Berry",
+  "category": "fruits",
+  "subcategory": "tropical",
+  "description": "Grown in Ghana's tropical forests, these berries contain miraculin glycoproteins that bind to taste buds, converting sour flavors to sweet for 30-90 minutes. Each berry can make lemons taste like lemonade. The effect comes from pH-dependent conformational changes in the miraculin protein. Grown in shaded polycultures with cocoa trees, hand-harvested at peak ripeness when the red skin turns deep burgundy. Traditionally used by local healers to make bitter medicines palatable. The seeds contain 12% beneficial oils rich in cyclopropene fatty acids.",
+  "nutrition": {
+    "calories": 18,
+    "miraculin_content": "0.4mg/g",
+    "unique_compounds": {
+      "Cyclopropene_fats": "12% seed oil"
+    }
+  },
+  "origin": "Western Ghana",
+  "harvest_season": "Year-round (peak June-Nov)",
+  "growing_method": "Cocoa shade polyculture",
+  "certifications": ["Wild Harvest", "Fair Trade"],
+  "price": 3.50,
+  "price_unit": "per berry",
+  "images": [
+    "https://example.com/miracle-berry1.jpg",
+    "https://example.com/miracle-berry2.jpg",
+    "https://example.com/miracle-berry3.jpg"
+  ],
+  "available": true,
+  "stock": 120,
+  "rating": 4.8,
+  "reviews": 215,
+  "storage_tips": "Freeze immediately, lasts 1 year frozen",
+  "culinary_uses": ["Flavor-tripping parties", "Diabetes-friendly desserts", "Medicine compliance", "Molecular gastronomy"]
+},{
+  "id": 34,
+  "name": "Fiddlehead Ferns",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "description": "Wild-foraged in New Brunswick's floodplains during the 10-day spring emergence window. These prehistoric ferns contain unique ptaquiloside compounds that require blanching to convert into beneficial quercetin glycosides. The scroll-like fronds are rich in omega-3s (2.3g/100g) and have 2x the antioxidants of spinach. Harvested using traditional Mi'kmaq methods that ensure regrowth. Contains rare fern-specific polysaccharides studied for gut health benefits. Must be cooked to deactivate thiaminase enzymes.",
+  "nutrition": {
+    "calories": 34,
+    "macros": {
+      "omega-3": "2.3g",
+      "fiber": "3.8g (14% DV)"
+    },
+    "antioxidants": {
+      "Quercetin_glycosides": "28mg",
+      "Fern_polysaccharides": "1.2g"
+    }
+  },
+  "origin": "New Brunswick, Canada",
+  "harvest_season": "May (10-day window)",
+  "growing_method": "Wild floodplain foraging",
+  "certifications": ["Certified Forager", "Ocean Wise"],
+  "price": 16.99,
+  "price_unit": "per pound",
+  "images": [
+    "https://example.com/fiddlehead1.jpg",
+    "https://example.com/fiddlehead2.jpg",
+    "https://example.com/fiddlehead3.jpg"
+  ],
+  "available": true,
+  "stock": 39,
+  "rating": 4.6,
+  "reviews": 78,
+  "storage_tips": "Blanch then freeze, lasts 8 months",
+  "culinary_uses": ["Sautéed with garlic", "Pickled", "Creamed", "Stir-fries"]
+},{
+  "id": 35,
+  "name": "Black Salsify",
+  "category": "vegetables",
+  "subcategory": "root",
+  "description": "Known as 'vegetable oyster' for its briny flavor, this root grows in Belgium's sandy coastal soils. The black skin contains inulin (16g/100g) that caramelizes when roasted. Harvested after first frost when polyacetylene compounds peak for immune benefits. The milky latex contains gut-healthy scopolin and ayapin glycosides. Traditionally peeled underwater to prevent oxidation. Requires 200-day growing season to develop full complexity of flavors ranging from artichoke to seaweed notes.",
+  "nutrition": {
+    "calories": 82,
+    "macros": {
+      "inulin": "16g",
+      "fiber": "3.3g (12% DV)"
+    },
+    "prebiotics": {
+      "FOS": "9g",
+      "Scopolin": "0.8mg/g"
+    }
+  },
+  "origin": "West Flanders, Belgium",
+  "harvest_season": "November-March",
+  "growing_method": "Coastal sand cultivation",
+  "certifications": ["EU Organic", "Belgian Speciality"],
+  "price": 9.99,
+  "price_unit": "per pound",
+  "images": [
+    "https://example.com/salsify1.jpg",
+    "https://example.com/salsify2.jpg",
+    "https://example.com/salsify3.jpg"
+  ],
+  "available": true,
+  "stock": 53,
+  "rating": 4.5,
+  "reviews": 61,
+  "storage_tips": "Store in damp sand at 32°F, lasts 5 months",
+  "culinary_uses": ["Oyster-flavored soups", "Gratins", "Crispy chips", "Purees"]
+},{
+  "id": 36,
+  "name": "Wasabi Rhizome (Real)",
+  "category": "vegetables",
+  "subcategory": "cruciferous",
+  "description": "Grown in the icy spring waters of Japan's Shizuoka prefecture, these rare rhizomes require 18 months of precisely controlled 50°F flowing water to develop their signature heat. The active compound allyl isothiocyanate forms only when cells are damaged, creating a vapor that stimulates nasal passages rather than taste buds. Contains 6-MSITC (6-methylsulfinylhexyl isothiocyanate) shown to support cardiovascular health. Traditionally grated on sharkskin boards (samegawa) which optimize enzyme activation. Loses 50% potency within 15 minutes of grating.",
+  "nutrition": {
+    "calories": 15,
+    "bioactives": {
+      "6-MSITC": "1.8mg/g",
+      "AITC": "0.9mg/g"
+    },
+    "minerals": {
+      "Potassium": "8% DV",
+      "Calcium": "3% DV"
+    }
+  },
+  "origin": "Shizuoka, Japan",
+  "harvest_season": "Year-round (18mo cycle)",
+  "growing_method": "Sawa cultivation (flowing water)",
+  "certifications": ["JAS Organic", "GI Protected"],
+  "price": 149.99,
+  "price_unit": "per 100g",
+  "images": [
+    "https://example.com/wasabi1.jpg",
+    "https://example.com/wasabi2.jpg",
+    "https://example.com/wasabi3.jpg"
+  ],
+  "available": true,
+  "stock": 12,
+  "rating": 4.9,
+  "reviews": 38,
+  "storage_tips": "Wrap in damp cloth, refrigerate at 41°F (5°C)",
+  "culinary_uses": ["Sashimi accompaniment", "Wasabi tea", "Infused oils", "Cocktail rim"]
+},{
+  "id": 37,
+  "name": "Yuzu Kosho Elixir",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "This fermented Japanese condiment combines yuzu citrus peel (48%), green chili (32%), and sea salt (20%) in a 90-day lactic fermentation. The process creates unique umami compounds like γ-glutamyl peptides while preserving yuzu's delicate limonene and citral aromatics. Each batch develops 2.8% natural glutamic acid - higher than soy sauce. The green chili's capsaicin transforms into milder capsiate compounds during fermentation, creating a slow-building heat. Traditionally aged in cedar barrels that impart shoyu-like notes.",
+  "nutrition": {
+    "calories": 25,
+    "umami_compounds": {
+      "Glutamic_acid": "2.8%",
+      "γ-Glutamyl": "1.2mg/g"
+    },
+    "vitamins": {
+      "Vitamin C": "42% DV"
+    }
+  },
+  "origin": "Kochi, Japan",
+  "processing_method": "Lactic fermentation (90 days)",
+  "certifications": ["JAS Organic", "Traditional Speciality"],
+  "price": 24.99,
+  "price_unit": "100ml bottle",
+  "images": [
+    "https://example.com/yuzukosho1.jpg",
+    "https://example.com/yuzukosho2.jpg",
+    "https://example.com/yuzukosho3.jpg"
+  ],
+  "available": true,
+  "stock": 27,
+  "rating": 4.8,
+  "reviews": 94,
+  "storage_tips": "Refrigerate after opening, lasts 1 year",
+  "culinary_uses": ["Sushi condiment", "Marinades", "Bloody Mary mixer", "Dipping sauce"]
+},{
+  "id": 38,
+  "name": "Chaga Reishi Adaptogen Blend",
+  "category": "juices",
+  "subcategory": "smoothies",
+  "description": "This Siberian-inspired elixir combines wild-harvested chaga mushroom (35%), reishi (25%), aronia berry (20%), and birch sap (20%). The chaga is cold-extracted over 72 hours to preserve betulinic acid from its host birch trees. Reishi contributes triterpenes like ganoderic acid that survive digestion due to nano-emulsification. Aronia berries provide anthocyanins that enhance mushroom compound absorption. Sweetened naturally with birch sap containing xylitol (3.2g/100ml) and manganese (42% DV). Bottled in violet glass to protect light-sensitive sterols.",
+  "nutrition": {
+    "calories": 60,
+    "adaptogens": {
+      "Betulinic_acid": "12mg",
+      "Ganoderic_acid": "8mg"
+    },
+    "antioxidants": {
+      "Anthocyanins": "182mg",
+      "Polyphenols": "420mg GAE"
+    }
+  },
+  "origin": "Altai Mountains, Russia",
+  "processing_method": "Cold extraction (72hr)",
+  "certifications": ["Wildcrafted", "Organic", "Halal"],
+  "price": 18.50,
+  "price_unit": "8oz bottle",
+  "images": [
+    "https://example.com/chaga1.jpg",
+    "https://example.com/chaga2.jpg",
+    "https://example.com/chaga3.jpg"
+  ],
+  "available": true,
+  "stock": 33,
+  "rating": 4.7,
+  "reviews": 127,
+  "storage_tips": "Refrigerate, shake before use (sediment is beneficial)",
+  "culinary_uses": ["Morning tonic", "Pre-workout", "Latte base", "Wellness shots"]
+},{
+  "id": 39,
+  "name": "Nopal Cactus Cleanse",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "Pressed from organically grown prickly pear pads (60%) and fruit (40%) in Mexico's Hidalgo region. The pads contain unique mucopolysaccharides that form a protective gut lining, while the fruit provides betalains that survive digestion due to natural pectin encapsulation. Cold-pressed with volcanic stone tools to preserve 17 amino acids and rare cactus-specific flavonoids like kaempferol 3-O-robinobioside. The juice naturally separates into three layers: fiber-rich gel (bottom), electrolyte liquid (middle), and betalain foam (top).",
+  "nutrition": {
+    "calories": 40,
+    "betalains": {
+      "Indicaxanthin": "8mg",
+      "Vulgaxanthin": "6mg"
+    },
+    "electrolytes": {
+      "Potassium": "12% DV",
+      "Magnesium": "8% DV"
+    }
+  },
+  "origin": "Hidalgo, Mexico",
+  "processing_method": "Volcanic stone pressing",
+  "certifications": ["USDA Organic", "Mexican Heritage"],
+  "price": 12.99,
+  "price_unit": "16oz bottle",
+  "images": [
+    "https://example.com/nopal1.jpg",
+    "https://example.com/nopal2.jpg",
+    "https://example.com/nopal3.jpg"
+  ],
+  "available": true,
+  "stock": 44,
+  "rating": 4.6,
+  "reviews": 88,
+  "storage_tips": "Shake before use, consume within 72 hours of opening",
+  "culinary_uses": ["Hangover remedy", "Digestive aid", "Mixology", "Marinades"]
+},{
+  "id": 40,
+  "name": "Okinawan Purple Sweet Potato",
+  "category": "vegetables",
+  "subcategory": "root",
+  "description": "Grown in Okinawa's mineral-rich red clay soils, these tubers develop deep purple flesh from anthocyanins (ayanin and peonidin) that remain stable even when cooked. The slow-growing varieties (12-18 months) develop 4x more DHEA precursors than standard sweet potatoes. Traditionally eaten with bitter melon to balance blood sugar. Contains unique sporamins - storage proteins with antioxidant properties. The skins are edible and contain 40% of the tuber's caffeoylquinic acid content.",
+  "nutrition": {
+    "calories": 112,
+    "anthocyanins": {
+      "Ayanin": "28mg",
+      "Peonidin": "14mg"
+    },
+    "vitamins": {
+      "Vitamin A": "438% DV",
+      "Vitamin C": "37% DV"
+    }
+  },
+  "origin": "Okinawa, Japan",
+  "harvest_season": "November-February",
+  "growing_method": "Red clay terracing",
+  "certifications": ["JAS Organic", "Longevity Food"],
+  "price": 7.99,
+  "price_unit": "per pound",
+  "images": [
+    "https://example.com/okinawa1.jpg",
+    "https://example.com/okinawa2.jpg",
+    "https://example.com/okinawa3.jpg"
+  ],
+  "available": true,
+  "stock": 67,
+  "rating": 4.8,
+  "reviews": 156,
+  "storage_tips": "Cure at 85°F for 10 days, then store at 55°F",
+  "culinary_uses": ["Purple mochi", "Tempura", "Okinawan imo-jochu liquor", "Pies"]
+},{
+  "id": 41,
+  "name": "Horned Melon (Kiwano)",
+  "category": "fruits",
+  "subcategory": "tropical",
+  "description": "This prehistoric-looking fruit from Zimbabwe's savannas develops its signature spiked orange rind as a natural defense against herbivores. The emerald green jelly-like flesh contains edible seeds packed with cucurbitacins that stimulate saliva production. Grows in extreme heat (104°F+) which concentrates its electrolytes (potassium 12% DV per 100g). The rind contains rare tetracyclic triterpenoids studied for metabolic benefits. Traditionally used by San people as a natural water source during droughts due to its 88% water content with balanced mineral profile.",
+  "nutrition": {
+    "calories": 44,
+    "electrolytes": {
+      "Potassium": "12% DV",
+      "Magnesium": "8% DV"
+    },
+    "unique_compounds": {
+      "Cucurbitacins": "0.8mg/g",
+      "Triterpenoids": "1.2mg/g"
+    }
+  },
+  "origin": "Zimbabwe savannas",
+  "harvest_season": "December-March",
+  "growing_method": "Dryland stress cultivation",
+  "certifications": ["AfroOrganic", "FairWild"],
+  "price": 6.99,
+  "price_unit": "each",
+  "images": [
+    "https://example.com/kiwano1.jpg",
+    "https://example.com/kiwano2.jpg",
+    "https://example.com/kiwano3.jpg"
+  ],
+  "available": true,
+  "stock": 38,
+  "rating": 4.3,
+  "reviews": 47,
+  "storage_tips": "Store at 55°F, lasts 3 months unrefrigerated",
+  "culinary_uses": ["Salad jelly", "Cocktail pearls", "Dessert garnish", "Hydration cubes"]
+},{
+  "id": 42,
+  "name": "Salmonberry (Alaska Gold)",
+  "category": "fruits",
+  "subcategory": "berries",
+  "description": "These golden raspberry relatives grow in Alaska's coastal rainforests, developing their signature salmon-like hue from unique carotenoid complexes. The hollow berries float in water - an adaptation for tidal zone dispersal. Contains 3x more ellagic acid than red raspberries (42mg/100g) and novel rubusoside compounds that act as natural sweeteners. Traditionally harvested by Tlingit people during the berry tides when low tides expose entire brambles. The stems exude a citrus-scented resin used as natural insect repellent.",
+  "nutrition": {
+    "calories": 47,
+    "antioxidants": {
+      "Ellagic_acid": "42mg",
+      "Rubusosides": "1.8mg/g"
+    },
+    "vitamins": {
+      "Vitamin C": "35% DV",
+      "Vitamin K": "12% DV"
+    }
+  },
+  "origin": "Tongass National Forest, Alaska",
+  "harvest_season": "July-August (tide-dependent)",
+  "growing_method": "Wild tidal zone brambles",
+  "certifications": ["Wild Harvest", "Alaska Grown"],
+  "price": 34.99,
+  "price_unit": "8oz clamshell",
+  "images": [
+    "https://example.com/salmonberry1.jpg",
+    "https://example.com/salmonberry2.jpg",
+    "https://example.com/salmonberry3.jpg"
+  ],
+  "available": true,
+  "stock": 22,
+  "rating": 4.6,
+  "reviews": 53,
+  "storage_tips": "Keep dry in breathable containers, do not wash until use",
+  "culinary_uses": ["Smoked fish glaze", "Elderberry syrup blend", "Ice wine", "Infused vinegars"]
+},{
+  "id": 43,
+  "name": "Ice Plant (Sour Fig)",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "description": "This succulent coastal plant from South Africa's Cape Floral Kingdom stores salty ocean minerals in its bladder cells that pop with umami flavor. The diamond-shaped leaves contain myo-inositol (1.2g/100g) that provides natural sweetness without carbs. Grows in pure beach sand, requiring no fresh water. The stems exude a natural salt crust (12% sodium chloride by weight) that serves as complete seasoning. Traditionally used by Khoisan people as trail food due to its water-storing abilities and electrolyte balance.",
+  "nutrition": {
+    "calories": 8,
+    "minerals": {
+      "Magnesium": "14% DV",
+      "Lithium": "0.2ppm"
+    },
+    "unique_compounds": {
+      "Myo-inositol": "1.2g",
+      "Bladder_salts": "12%"
+    }
+  },
+  "origin": "Western Cape, South Africa",
+  "harvest_season": "Year-round",
+  "growing_method": "Beach sand cultivation",
+  "certifications": ["Biodiversity Friendly", "FairWild"],
+  "price": 9.99,
+  "price_unit": "4oz bunch",
+  "images": [
+    "https://example.com/iceplant1.jpg",
+    "https://example.com/iceplant2.jpg",
+    "https://example.com/iceplant3.jpg"
+  ],
+  "available": true,
+  "stock": 41,
+  "rating": 4.4,
+  "reviews": 37,
+  "storage_tips": "Store dry at room temperature, revives in water",
+  "culinary_uses": ["Living salt garnish", "Crudo topping", "Martini rim", "Oyster companion"]
+},{
+  "id": 44,
+  "name": "Tamarind Ambil",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "This concentrated Tamil Nadu specialty is made from sun-dried tamarind pods (75%) and palm jaggery (25%) fermented for 6 months in terracotta pots. The process creates unique 5-HMF compounds that enhance bioavailability of tamarind's tartaric acid (12g/100ml). Contains natural tryptophan (28mg/100g) that converts to serotonin during digestion. The clay pots impart beneficial minerals including zinc (8% DV) and silica. Traditionally diluted as a digestive aid or used undiluted as a iron-rich (22% DV) flavor concentrate.",
+  "nutrition": {
+    "calories": 280,
+    "acids": {
+      "Tartaric": "12g",
+      "5-HMF": "1.8mg/g"
+    },
+    "minerals": {
+      "Iron": "22% DV",
+      "Zinc": "8% DV"
+    }
+  },
+  "origin": "Tamil Nadu, India",
+  "processing_method": "Clay pot fermentation (6mo)",
+  "certifications": ["India Organic", "GI Tagged"],
+  "price": 16.99,
+  "price_unit": "8oz jar",
+  "images": [
+    "https://example.com/tamarind1.jpg",
+    "https://example.com/tamarind2.jpg",
+    "https://example.com/tamarind3.jpg"
+  ],
+  "available": true,
+  "stock": 29,
+  "rating": 4.7,
+  "reviews": 68,
+  "storage_tips": "Keep in cool dark place, lasts 2+ years",
+  "culinary_uses": ["Rasam base", "BBQ glaze", "Digestive tonic", "Worcestershire alternative"]
+},{
+  "id": 45,
+  "name": "Pine Needle Elixir",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "Made from young Douglas fir tips (85%) and wildflower honey (15%) cold-steeped for 3 weeks. The needles contain shikimic acid (precursor to Tamiflu) and α-pinene that volatilize below 100°F. Each batch develops natural benzoic acid as preservative (0.4%). The honey adds glucose oxidase enzyme that slowly converts to hydrogen peroxide, creating self-sterilizing properties. Traditionally used by Pacific Northwest tribes as winter respiratory tonic. Contains 3x more vitamin C than oranges (300% DV per oz) in highly bioavailable form.",
+  "nutrition": {
+    "calories": 35,
+    "bioactives": {
+      "Shikimic_acid": "1.2mg/ml",
+      "α-Pinene": "0.8mg/ml"
+    },
+    "vitamins": {
+      "Vitamin C": "300% DV",
+      "Vitamin A": "12% DV"
+    }
+  },
+  "origin": "Cascade Mountains, USA",
+  "processing_method": "Cold infusion (3 weeks)",
+  "certifications": ["Wildcrafted", "Organic"],
+  "price": 22.99,
+  "price_unit": "4oz dropper bottle",
+  "images": [
+    "https://example.com/pineneedle1.jpg",
+    "https://example.com/pineneedle2.jpg",
+    "https://example.com/pineneedle3.jpg"
+  ],
+  "available": true,
+  "stock": 18,
+  "rating": 4.5,
+  "reviews": 42,
+  "storage_tips": "Refrigerate after opening, lasts 1 year",
+  "culinary_uses": ["Respiratory syrup", "Cocktail bitter", "Herbal tea", "Glaze for game meats"]
+},{
+  "id": 46,
+  "name": "Australian Finger Lime",
+  "category": "fruits",
+  "subcategory": "citrus",
+  "description": "This prehistoric citrus from Queensland's rainforests contains pearl-like juice vesicles that burst with tangy flavor. The thorn-covered trees evolved to deter megafauna, now protecting fruits with 3x more antioxidants than standard limes. Each color variant (red, green, yellow) contains unique anthocyanins and limonoids. The peel produces rare citrus triterpenes (nomilin, limonin) studied for metabolic benefits. Harvested using Aboriginal climbing techniques that don't damage the delicate vesicles.",
+  "nutrition": {
+    "calories": 28,
+    "antioxidants": {
+      "Limonoids": "18mg",
+      "Anthocyanins": "24mg (red variety)"
+    },
+    "vitamins": {
+      "Vitamin C": "48% DV",
+      "Folate": "6% DV"
+    }
+  },
+  "origin": "Queensland, Australia",
+  "harvest_season": "March-July",
+  "growing_method": "Rainforest understory cultivation",
+  "certifications": ["Bush Tucker Certified", "Organic"],
+  "price": 12.99,
+  "price_unit": "per 10 fruits",
+  "images": [
+    "https://example.com/fingerlime1.jpg",
+    "https://example.com/fingerlime2.jpg",
+    "https://example.com/fingerlime3.jpg"
+  ],
+  "available": true,
+  "stock": 35,
+  "rating": 4.8,
+  "reviews": 87,
+  "storage_tips": "Refrigerate in breathable container, lasts 3 weeks",
+  "culinary_uses": ["Caviar-like garnish", "Oyster topping", "Cocktail pearls", "Dessert decoration"]
+},{
+  "id": 47,
+  "name": "Arctic Crowberry",
+  "category": "fruits",
+  "subcategory": "berries",
+  "description": "These glossy black berries grow in circumpolar tundras, surviving -58°F temperatures through natural antifreeze proteins. The astringent berries contain empetrin (a unique flavonoid) and high tannin content (12%) that preserves them without refrigeration. Traditionally frozen and fermented by Inuit people into igunaq - an anaerobic delicacy that develops umami flavors over 18 months. The seeds contain vaccinium-specific omega-3s that remain stable for years in frozen storage.",
+  "nutrition": {
+    "calories": 37,
+    "unique_compounds": {
+      "Empetrin": "8mg/g",
+      "Antifreeze_proteins": "0.4mg/g"
+    },
+    "omega-3s": {
+      "Vaccenic_acid": "0.6g"
+    }
+  },
+  "origin": "Nunavut, Canada",
+  "harvest_season": "August (2-week window)",
+  "growing_method": "Wild tundra mats",
+  "certifications": ["Canadian Wild", "Inuit Harvested"],
+  "price": 39.99,
+  "price_unit": "8oz frozen",
+  "images": [
+    "https://example.com/crowberry1.jpg",
+    "https://example.com/crowberry2.jpg",
+    "https://example.com/crowberry3.jpg"
+  ],
+  "available": true,
+  "stock": 18,
+  "rating": 4.5,
+  "reviews": 32,
+  "storage_tips": "Keep frozen indefinitely, flavor improves with age",
+  "culinary_uses": ["Igunaq fermentation", "Game sauce", "Infused spirits", "Pemmican ingredient"]
+},{
+  "id": 48,
+  "name": "Yacon (Bolivian Sunroot)",
+  "category": "vegetables",
+  "subcategory": "root",
+  "description": "These crunchy tubers from the Andes store fructooligosaccharides (FOS) instead of starch - functioning as natural prebiotics (12g/100g). The sweet, pear-flavored roots contain 70% water and phenolic acids that prevent browning. Traditionally sun-dried into chewy yacon ch'arki by Quechua people. The leaves produce stevia-like compounds (8% chlorogenic acid) used as diabetic-friendly sweeteners. Grows at 9,000ft elevation where UV stress increases antioxidant production.",
+  "nutrition": {
+    "calories": 33,
+    "prebiotics": {
+      "FOS": "12g",
+      "Inulin": "8g"
+    },
+    "antioxidants": {
+      "Chlorogenic_acid": "8%",
+      "Caffeic_acid": "2mg/g"
+    }
+  },
+  "origin": "Cochabamba, Bolivia",
+  "harvest_season": "May-September",
+  "growing_method": "High-altitude terraces",
+  "certifications": ["Andean Organic", "Fair Trade"],
+  "price": 6.99,
+  "price_unit": "per pound",
+  "images": [
+    "https://example.com/yacon1.jpg",
+    "https://example.com/yacon2.jpg",
+    "https://example.com/yacon3.jpg"
+  ],
+  "available": true,
+  "stock": 52,
+  "rating": 4.6,
+  "reviews": 74,
+  "storage_tips": "Store like potatoes, sweetens over 2 weeks",
+  "culinary_uses": ["Raw in salads", "Syrup production", "Diabetic desserts", "Fermented chicha"]
+},{
+  "id": 49,
+  "name": "Moringa Drumstick Leaves",
+  "category": "vegetables",
+  "subcategory": "leafy-greens",
+  "description": "These drought-resistant leaves from India's arid regions contain all 9 essential amino acids (6g protein/100g). The compound leaves fold at night to conserve water, concentrating zeatin (a potent anti-aging cytokinin). Traditionally sun-dried and powdered for year-round use. Contains moringine (a unique alkaloid) that enhances nutrient absorption. The stems produce edible gum with 3x more calcium than milk (42% DV per tbsp). Grows 1ft/month even in poor soils.",
+  "nutrition": {
+    "calories": 64,
+    "protein": {
+      "Complete_amino_acids": "6g",
+      "Zeatin": "1.2μg/g"
+    },
+    "minerals": {
+      "Calcium": "42% DV",
+      "Iron": "28% DV"
+    }
+  },
+  "origin": "Rajasthan, India",
+  "harvest_season": "Year-round",
+  "growing_method": "Rain-fed dryland farming",
+  "certifications": ["India Organic", "Slow Food Presidium"],
+  "price": 5.99,
+  "price_unit": "8oz bunch",
+  "images": [
+    "https://example.com/moringa1.jpg",
+    "https://example.com/moringa2.jpg",
+    "https://example.com/moringa3.jpg"
+  ],
+  "available": true,
+  "stock": 68,
+  "rating": 4.7,
+  "reviews": 113,
+  "storage_tips": "Dry leaves retain nutrients for 1+ year",
+  "culinary_uses": ["Nutritional powder", "Steamed greens", "Soup thickener", "Herbal tea"]
+},{
+  "id": 50,
+  "name": "Baobab Superfruit Nectar",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "This African superfood is made from sun-dried baobab fruit pulp (100% natural), containing 3x more vitamin C than oranges (300% DV) and 50% soluble fiber. The dry pulp naturally separates into powder (no pressing needed) with tangy citrus notes. Rich in polyphenols that remain stable for 3+ years due to the fruit's natural low-water activity. Traditionally harvested by women's collectives using century-old climbing techniques. Contains prebiotic mucilage that supports gut health.",
+  "nutrition": {
+    "calories": 90,
+    "fiber": {
+      "Soluble": "12g",
+      "Prebiotic": "4g"
+    },
+    "vitamins": {
+      "Vitamin C": "300% DV",
+      "B6": "24% DV"
+    }
+  },
+  "origin": "Sahel Region, Senegal",
+  "processing_method": "Sun-dried, stone-ground",
+  "certifications": ["FairWild", "Organic", "Women-Harvested"],
+  "price": 14.99,
+  "price_unit": "8oz powder",
+  "images": [
+    "https://example.com/baobab1.jpg",
+    "https://example.com/baobab2.jpg",
+    "https://example.com/baobab3.jpg"
+  ],
+  "available": true,
+  "stock": 43,
+  "rating": 4.9,
+  "reviews": 156,
+  "storage_tips": "Store dry indefinitely, no refrigeration needed",
+  "culinary_uses": ["Smoothie booster", "Hydration drink", "Baking substitute", "Face masks"]
+},{
+  "id": 51,
+  "name": "Seaweed Phyto-Tonic",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "This marine elixir combines bladderwrack (45%), sea lettuce (30%), and dulse (25%) from Iceland's pristine fjords. Cold-pressed at 39°F to preserve fucoxanthin (a weight-management carotenoid) and alginate fibers. Contains all 92 trace minerals in seawater proportions, including rare elements like vanadium (helps regulate blood sugar). The pressing releases umami-rich glutamates (1.2g/100ml) and natural MSG alternatives. Bottled in blue glass to protect light-sensitive iodine.",
+  "nutrition": {
+    "calories": 25,
+    "marine_nutrients": {
+      "Iodine": "280% DV",
+      "Fucoxanthin": "8mg"
+    },
+    "minerals": {
+      "Trace_elements": "92 present",
+      "Vanadium": "0.4ppm"
+    }
+  },
+  "origin": "Westfjords, Iceland",
+  "processing_method": "Sub-zero pressing",
+  "certifications": ["Wildcrafted", "Ocean Friendly"],
+  "price": 19.99,
+  "price_unit": "8oz bottle",
+  "images": [
+    "https://example.com/seaweed1.jpg",
+    "https://example.com/seaweed2.jpg",
+    "https://example.com/seaweed3.jpg"
+  ],
+  "available": true,
+  "stock": 27,
+  "rating": 4.6,
+  "reviews": 64,
+  "storage_tips": "Refrigerate, shake before use (mineral settling)",
+  "culinary_uses": ["Bloody Mary mixer", "Umami broth", "Detox shots", "Marinade base"]
+},{
+  "id": 52,
+  "name": "Sudachi Japanese Lime",
+  "category": "fruits",
+  "subcategory": "citrus",
+  "description": "This golf ball-sized citrus from Tokushima Prefecture develops intense aroma from 32 volatile compounds, including rare sudachitin flavonoids. Grown on steep mountain terraces where temperature swings concentrate its tart-sweet balance (6:1 acid-to-sugar ratio). The rind contains 3x more nomilin than standard limes, a compound studied for metabolic benefits. Traditionally grated with the skin to release aromatic oil sacs called 'flavedo'. Harvested immature to preserve its signature acidity that mellows when cooked.",
+  "nutrition": {
+    "calories": 29,
+    "bioactives": {
+      "Sudachitin": "8mg",
+      "Nomilin": "1.2mg/g"
+    },
+    "vitamins": {
+      "Vitamin C": "88% DV",
+      "Vitamin B5": "6% DV"
+    }
+  },
+  "origin": "Tokushima, Japan",
+  "harvest_season": "August-October (immature)",
+  "growing_method": "Mountain terrace cultivation",
+  "certifications": ["JAS Organic", "GI Protected"],
+  "price": 3.99,
+  "price_unit": "per 5 fruits",
+  "images": [
+    "https://example.com/sudachi1.jpg",
+    "https://example.com/sudachi2.jpg",
+    "https://example.com/sudachi3.jpg"
+  ],
+  "available": true,
+  "stock": 62,
+  "rating": 4.8,
+  "reviews": 94,
+  "storage_tips": "Refrigerate in perforated bag, lasts 3 weeks",
+  "culinary_uses": ["Ponzu sauce", "Sashimi garnish", "Cocktail rim", "Hot pot dipping"]
+},{
+  "id": 53,
+  "name": "Huckleberry (Mountain Wild)",
+  "category": "fruits",
+  "subcategory": "berries",
+  "description": "These wild berries from the Rocky Mountains develop deep purple anthocyanins (18mg/g) as natural sunscreen at high altitudes. The plants form symbiotic relationships with truffle-like fungi that enhance mineral absorption. Berries contain pterostilbene, a compound similar to resveratrol but with 4x better bioavailability. Traditionally harvested by Native Americans using cedarwood rakes that don't damage plants. The waxy bloom on each berry acts as natural preservative, allowing 2-week fresh storage without refrigeration.",
+  "nutrition": {
+    "calories": 57,
+    "antioxidants": {
+      "Pterostilbene": "1.8mg",
+      "Anthocyanins": "18mg/g"
+    },
+    "vitamins": {
+      "Vitamin K": "24% DV",
+      "Manganese": "32% DV"
+    }
+  },
+  "origin": "Idaho Panhandle, USA",
+  "harvest_season": "July-August (3-week window)",
+  "growing_method": "Wild montane forests",
+  "certifications": ["Certified Wild", "Slow Food Ark"],
+  "price": 24.99,
+  "price_unit": "6oz basket",
+  "images": [
+    "https://example.com/huckleberry1.jpg",
+    "https://example.com/huckleberry2.jpg",
+    "https://example.com/huckleberry3.jpg"
+  ],
+  "available": true,
+  "stock": 28,
+  "rating": 4.9,
+  "reviews": 117,
+  "storage_tips": "Keep unwashed in paper-lined container",
+  "culinary_uses": ["Pancake syrup", "Game meat glaze", "Infused whiskey", "Wild jams"]
+},
+{
+  "id": 54,
+  "name": "Black Sapote (Chocolate Pudding Fruit)",
+  "category": "fruits",
+  "subcategory": "tropical",
+  "description": "This Central American fruit's green flesh transforms into chocolate-colored custard when ripe, with 0.5% fat content but 20% carbohydrates that mimic cocoa mouthfeel. Contains theobromine analogs that provide gentle stimulation without caffeine's side effects. The seeds yield an edible oil rich in cyclopropene fatty acids studied for metabolic benefits. Traditionally ripened in straw-lined boxes to accelerate enzymatic browning. The tree's latex contains shikimic acid, a Tamiflu precursor.",
+  "nutrition": {
+    "calories": 140,
+    "unique_compounds": {
+      "Theobromine_analogs": "0.8mg/g",
+      "Cyclopropenes": "3% seed oil"
+    },
+    "vitamins": {
+      "Vitamin C": "45% DV",
+      "Vitamin A": "12% DV"
+    }
+  },
+  "origin": "Chiapas, Mexico",
+  "harvest_season": "November-February",
+  "growing_method": "Mayan agroforestry systems",
+  "certifications": ["Mexican Organic", "Fair Trade"],
+  "price": 8.99,
+  "price_unit": "each",
+  "images": [
+    "https://example.com/blacksapote1.jpg",
+    "https://example.com/blacksapote2.jpg",
+    "https://example.com/blacksapote3.jpg"
+  ],
+  "available": true,
+  "stock": 39,
+  "rating": 4.6,
+  "reviews": 83,
+  "storage_tips": "Ripen at room temperature until mushy",
+  "culinary_uses": ["Vegan mousse", "Ice cream base", "Baking substitute", "Raw desserts"]
+},
+{
+  "id": 55,
+  "name": "Sunchoke (Jerusalem Artichoke)",
+  "category": "vegetables",
+  "subcategory": "root",
+  "description": "These North American tubers store inulin (16g/100g) instead of starch, making them low-glycemic. The knobby roots develop sweet, nutty flavors after frost converts inulin to fructose. Contains heliangin, a compound that may support gut microbiota diversity. Traditionally cultivated by Native Americans as winter food source. The plants grow 10ft tall with sunflower-like blooms that attract pollinators. Requires careful cooking to prevent flatulence from rapid inulin fermentation.",
+  "nutrition": {
+    "calories": 73,
+    "prebiotics": {
+      "Inulin": "16g",
+      "FOS": "8g"
+    },
+    "minerals": {
+      "Iron": "28% DV",
+      "Potassium": "14% DV"
+    }
+  },
+  "origin": "Great Lakes Region",
+  "harvest_season": "October-March",
+  "growing_method": "Perennial polycultures",
+  "certifications": ["USDA Organic", "Savanna Institute"],
+  "price": 5.99,
+  "price_unit": "per pound",
+  "images": [
+    "https://example.com/sunchoke1.jpg",
+    "https://example.com/sunchoke2.jpg",
+    "https://example.com/sunchoke3.jpg"
+  ],
+  "available": true,
+  "stock": 71,
+  "rating": 4.3,
+  "reviews": 67,
+  "storage_tips": "Store in damp sand at 32°F, sweetens over time",
+  "culinary_uses": ["Creamy soups", "Roasted chips", "Fermented pickles", "Flour alternative"]
+},
+{
+  "id": 56,
+  "name": "Aronia Chokeberry Shrub",
+  "category": "juices",
+  "subcategory": "fruit",
+  "description": "This colonial-era drinking vinegar combines aronia berries (60%), raw honey (20%), and apple cider vinegar (20%) in a 3-month fermentation. The process converts harsh tannins into smooth, complex flavors while preserving the berries' record-high anthocyanins (1,480mg/100g). Contains ellagic acid in highly bioavailable form due to vinegar extraction. Traditionally used as health tonic and cocktail mixer. The fermentation creates natural acetobacter probiotics that aid digestion.",
+  "nutrition": {
+    "calories": 40,
+    "antioxidants": {
+      "Anthocyanins": "1,480mg",
+      "Ellagic_acid": "28mg"
+    },
+    "probiotics": {
+      "Acetobacter": "5M CFU/ml"
+    }
+  },
+  "origin": "Iowa, USA",
+  "processing_method": "Open-vat fermentation",
+  "certifications": ["USDA Organic", "Raw"],
+  "price": 12.99,
+  "price_unit": "12oz bottle",
+  "images": [
+    "https://example.com/aronia1.jpg",
+    "https://example.com/aronia2.jpg",
+    "https://example.com/aronia3.jpg"
+  ],
+  "available": true,
+  "stock": 48,
+  "rating": 4.7,
+  "reviews": 92,
+  "storage_tips": "Room temperature stable, improves with age",
+  "culinary_uses": ["Switchel base", "Salad dressing", "Marinade tenderizer", "Mocktail mixer"]
+},
+{
+  "id": 57,
+  "name": "Prickly Pear Cactus Nectar",
+  "category": "juices",
+  "subcategory": "cold-pressed",
+  "description": "Made from Sonoran Desert prickly pear fruits, this vibrant red nectar contains betalains that remain stable at high temperatures. The fruits are singed with mesquite coals to remove glochids before cold-pressing. Rich in taurine (28mg/100ml) - rare in plant foods - and magnesium (24% DV). The mucilaginous pulp acts as natural thickener. Traditionally used by Tohono O'odham people as drought food and dye source. Contains unique cactus-specific flavonoids like isorhamnetin glycosides.",
+  "nutrition": {
+    "calories": 52,
+    "betalains": {
+      "Indicaxanthin": "18mg",
+      "Vulgaxanthin": "12mg"
+    },
+    "minerals": {
+      "Magnesium": "24% DV",
+      "Calcium": "8% DV"
+    }
+  },
+  "origin": "Sonoran Desert, Arizona",
+  "processing_method": "Mesquite-singed then pressed",
+  "certifications": ["Desert Harvested", "Native American Owned"],
+  "price": 11.99,
+  "price_unit": "16oz bottle",
+  "images": [
+    "https://example.com/pricklypear1.jpg",
+    "https://example.com/pricklypear2.jpg",
+    "https://example.com/pricklypear3.jpg"
+  ],
+  "available": true,
+  "stock": 36,
+  "rating": 4.5,
+  "reviews": 58,
+  "storage_tips": "Refrigerate after opening, lasts 2 weeks",
+  "culinary_uses": ["Margarita mixer", "Pancake syrup", "Natural food dye", "Electrolyte drink"]
+}
+  ]
+}
