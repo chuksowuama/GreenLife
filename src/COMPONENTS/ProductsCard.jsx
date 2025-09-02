@@ -76,7 +76,7 @@ const ProductsCard = ({ item, openCartModal, expandProductModal }) => {
             </p>
           </Link>
           <p className="text-quintanary font-extrabold">{item.rating}</p>
-          <p className="text-[17px] font-bold">NGN{item.price}</p>
+          <p className="text-[17px] font-bold">₦ {item.price}</p>
           <button
             className="cardButton"
             onClick={(e) => {

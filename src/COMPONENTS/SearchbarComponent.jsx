@@ -41,7 +41,7 @@ const SearchbarComponent = () => {
       className={
         laptop
           ? "w-full"
-          : mobile && "py-3 bg-primary w-[100%] absolute top-29 left-0 border"
+          : mobile && "py-3 bg-primary w-[100%] absolute top-[100.2%]  left-0"
       }
     >
       <div className="bg-[#F7F7F7]  p-2 md:w-full md:h-13 rounded-3xl rounded- m-auto overflow-hidden flex items-center gap-3.5 relative ">

@@ -43,7 +43,7 @@ const ProductCard2 = ({item,changeview,openCartModal,expandProductModal}) => {
                  {laptop?!changeview&& <p>{item.description.slice(0,250).concat("...")}</p>:null}
             </div>
             <div className=" w-full lg:mt-5 flex flex-col gap-4">
-               <p className='text-[17px] font-bold '>NGN{item.price}</p>
+               <p className='text-[17px] font-bold '>₦ {item.price}</p>
               <button className={`py-3 text-[1rem] px-2 rounded-2xl bg-gray-300 ${changeview?"group-hover:bg-primary text-primary group-hover:text-secondary ":"bg-primary"}font-bold cursor-pointer w-full`}
                onClick={(e)=>{e.stopPropagation();addToCart(item);openCartModal(item.id)}}>{!cartId?"Add To Cart":"Remove from Cart"}</button>
             </div>

@@ -1,7 +1,9 @@
 import React from "react";
 import SideFilterComponent from "../COMPONENTS/SideFilterComponent";
+import { useSelector } from "react-redux";
 
 const SimpleUserDashboard = () => {
+  const user=useSelector(state=>state.stored.ActiveUser)
   return (
     <>
       <div>
@@ -12,7 +14,7 @@ const SimpleUserDashboard = () => {
           <div className=" md:col-span-4 sm:order-1 lg:order-2 space-y-3 p-3">
             <div className="p-10 max-w-3xl mx-auto border border-gray-500 rounded-[0.7rem]">
               {/* Welcome */}
-              <h1 className="text-2xl font-bold mb-4">Welcome, owuama chukwuweikem martins</h1>
+              <h1 className="text-2xl font-bold mb-4">Welcome,{user.Firstname}</h1>
               <p className="text-gray-600 mb-6">
                 Here is your dashboard overview.
               </p>

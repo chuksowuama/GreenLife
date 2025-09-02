@@ -107,7 +107,7 @@ const ComparePage = () => {
                 <button className="bg-primary px-7 py-3 cursor-pointer text-secondary font-semibold rounded-2xl">
                   Continue shopping
                 </button>
-              </Link>
+           </Link>
         </div>
       </div>
     </>

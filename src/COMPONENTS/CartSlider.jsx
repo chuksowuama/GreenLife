@@ -45,23 +45,23 @@ const CartSlider = ({ closecart }) => {
         <div className="h-full flex flex-col gap-4 p-5 ">
           <div className="flex flex-col gap-3 font-semibold">
             <p className="flex justify-between ">
-              <span className="font-semibold" >{cartResult.length} items </span> NGN{totalItem}
+              <span className="font-semibold" >{cartResult.length} items </span> ₦ {totalItem}
             </p>
             <p className="flex justify-between">
-              shipping <span> NGN {shipping}</span>
+              shipping <span> ₦ {shipping}</span>
             </p>
           </div>
           {/* lower bottom of the total */}
           <div className="flex flex-col gap-2 font-semibold">
-            <p className="flex justify-between">Total tax excl.: <span className="font-semibold" > NGN {totalItem+ shipping}</span></p>
-            <p className="flex justify-between">Total tax incl: <span className="font-semibold" > NGN {totalItem + shipping}</span></p>
+            <p className="flex justify-between">Total tax excl.: <span className="font-semibold" > ₦ {totalItem+ shipping}</span></p>
+            <p className="flex justify-between">Total tax incl: <span className="font-semibold" > ₦ {totalItem + shipping}</span></p>
             <p className="flex justify-between">NGN Taxes {0}</p>
           </div>
           <div className="flex sm:flex-col sm:items-center md:flex-row md:justify-center md:gap-3">
-             <Link to={`/CartPage`}>
+             <Link to={`/CartPage`} onClick={closecart}>
               <button className="button2">View cart</button>
              </Link>
-             <Link>
+             <Link onClick={closecart}>
              <button className="button2">Check Out</button>
              </Link>
           </div>

@@ -12,7 +12,7 @@ const createdReducers = createSlice({
     expand:[],
     viewed:[],
     registerUser:[],
-    ActiveUser:[]
+    ActiveUser:null
   },
 
   reducers: {
@@ -113,7 +113,7 @@ const createdReducers = createSlice({
      const{email,password}=action.payload
      const foundUser=state.registerUser.find(user=>user.email===email&& user.password===password)
      if(foundUser){
-      state.ActiveUser=foundUser
+      state.ActiveUser=foundUser? foundUser:null
      }else{
       state.ActiveUser=null
      }

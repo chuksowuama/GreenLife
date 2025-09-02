@@ -124,11 +124,11 @@ const CartModal = ({ closeTheModal, itemID, mode }) => {
                   </p>
                 </div>
                 <div className="flex sm:flex-col sm:items-center md:flex-row md:gap-3">
-                  <Link to={`/CartPage`}>
+                  <Link to={`/CartPage`} onClick={closeTheModal}>
                     <button className="button2 md:w-30">View cart</button>
                   </Link>
                   <Link>
-                    <button className="button2 md:w-30">Check Out</button>
+                    <button className="button2 md:w-30" onClick={closeTheModal}>Check Out</button>
                   </Link>
                 </div>
               </div>

@@ -104,14 +104,14 @@ const NavBarComponent = () => {
         ref={removeonscroll}
       >
         <div className="w-full flex sm:justify-center lg:justify-between gap-3 items-center py-2 sm:px-3 lg:px-0 sm:relative " >
-        <span className="sm:hidden lg:block"><i class="fa-solid fa-calendar-days"></i> Delivery on next day from 08:00 AM to 08:00 PM</span>
-        <ul className="flex sm:gap-3 md:gap-5 pr-3 [&>li]:cursor-pointer md:[&>li]:text-[0.9rem] sm:[&>li]:text-[0.8rem] [&>li]:font-semibold ">
+        <span className="sm:hidden lg:block text-gray-700"><i class="fa-solid fa-calendar-days"></i> Delivery on next day from 08:00 AM to 08:00 PM</span>
+        <ul className="flex sm:gap-3 md:gap-5 pr-3 [&>li]:cursor-pointer md:[&>li]:text-[0.9rem] sm:[&>li]:text-[0.8rem] [&>li]:font-semibold [&>li]:text-gray-700 ">
            <li><Link to={"/StoresPage" }>Store Locator</Link></li>
            <li><Link to={"/TrackOrder"}>Track your order</Link></li>
-           <li>{user? <span onClick={(e) => {
+           <li>{user?<span onClick={(e) => {
               e.stopPropagation();
               handleTogglenav();
-            }}><Profile togglenav={userdropdown} closeUserdrop={closeUserdropdown} proInfo={user} /> </span>: <Link to={"/SignInPage"}>My Account</Link>   }</li>
+            }}><Profile togglenav={userdropdown} closeUserdrop={closeUserdropdown} proInfo={user} /> </span>:<Link to={"/SignInPage"}>My Account</Link> }</li>
         </ul>
       </div>
         <div className="flex justify-between gap-3 w-full">

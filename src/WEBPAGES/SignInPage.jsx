@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setactiveUser } from "../ReduxFolder";
 
 const SignInPage = () => {
-  const [FormDetails, setForDetails] = useState({
+  const [LoginDatails, setLoginDetails] = useState({
     email: "",
     password: "",
   });
@@ -14,16 +14,15 @@ const SignInPage = () => {
   const [errormsg, setErrorMsg] = useState({});
   const dispatch=useDispatch()
   const user=useSelector(state=>state.stored.ActiveUser)
-   const navigate=useNavigate()
-  
   console.log(user)
+   const navigate=useNavigate()
   function loginValidation() {
     const formError = {};
 
-    if (!FormDetails.email.trim()) {
+    if (!LoginDatails.email.trim()) {
       formError.email = "please input your email";
     }
-    if (!FormDetails.password.trim()) {
+    if (!LoginDatails.password.trim()) {
       formError.password = "please inout your password";
     }
     return formError;
@@ -31,18 +30,19 @@ const SignInPage = () => {
 
   function handleformChange(e) {
     const { name, value } = e.target;
-    setForDetails((prev) => ({ ...prev, [name]: value }));
+    setLoginDetails((prev) => ({ ...prev, [name]: value }));
   }
+
 
   function handleSubmit(e) {
     e.preventDefault();
     let errror = loginValidation();
     console.log(errror);
-     navigate("/UserdashBoard");
     if (Object.keys(errror).length === 0) {
-       dispatch(setactiveUser({email:FormDetails.email,password:FormDetails.password}))
-      setErrorMsg({})
-          console.log("LoginSuccessfully");
+      dispatch(setactiveUser({email:LoginDatails.email, password:LoginDatails.password}))
+       if(user){
+        navigate("/UserdashBoard");
+       }
     } else {
       setErrorMsg(errror);
     }
@@ -76,7 +76,7 @@ const SignInPage = () => {
               <input
                 type="email"
                 name="email"
-                value={FormDetails.email}
+                value={LoginDatails.email}
                 onChange={handleformChange}
                 id=""
                 className="w-full md:flex-5/6 text-[1rem] border border-gray-500 rounded-tl-sm rounded-bl-sm rounded-tr-sm rounded-br-sm px-1.5 py-1.5"
@@ -92,7 +92,7 @@ const SignInPage = () => {
                 <input
                   type={showPassword ? "text" : "password"}
                   name="password"
-                  value={FormDetails.password}
+                  value={LoginDatails.password}
                   onChange={handleformChange}
                   id=""
                   className="w-full  text-[1rem] border-none outline-0 px-1.5 py-1.5 flex-2/3 rounded-tl-sm rounded-bl-sm rounded-tr-sm rounded-br-sm "
