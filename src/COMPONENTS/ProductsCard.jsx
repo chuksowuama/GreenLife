@@ -28,12 +28,12 @@ const ProductsCard = ({ item, openCartModal, expandProductModal }) => {
   return (
     <>
       <div className="group px-3 shadow-lg h-full my-2 [&>button]:hover:bg-primary cursor-pointer">
-        <div className=" bg-gray-200 w-full sm:h-96 md:h-72 relative overflow-hidden">
+        <div className=" bg-gray-200 w-full sm:h-50 md:h-72 relative overflow-hidden">
           <Link to={`/details/${item.id}`} onClick={() => viewedProduct(item)}>
             <img
               src={item.images?.[0]}
               alt=""
-              className="w-full h-full sm:object-fit group-hover:brightness-50 transition-all duration-300 ease-in-out"
+              className="w-full h-full sm:object-cover group-hover:brightness-50 transition-all duration-300 ease-in-out"
             />
           </Link>
           <div className="absolute w-full py-2 px-4 top-0 left-0 flex justify-between">
@@ -78,7 +78,7 @@ const ProductsCard = ({ item, openCartModal, expandProductModal }) => {
           <p className="text-quintanary font-extrabold">{item.rating}</p>
           <p className="text-[17px] font-bold">₦ {item.price}</p>
           <button
-            className="cardButton"
+            className="cardButton text-secondary bg-gray-600 hover:bg-primary"
             onClick={(e) => {
               e.stopPropagation();
               addToCart(item);
