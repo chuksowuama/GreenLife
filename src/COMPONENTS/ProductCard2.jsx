@@ -21,7 +21,7 @@ const ProductCard2 = ({item,changeview,openCartModal,expandProductModal}) => {
   return (
     <>
      <div className={` group py-3 px-3 border border-gray-400 rounded-2xl h-full my-2 [&>button]:hover:bg-primary cursor-pointer flex ${changeview?"flex-col":"lg:flex-row sm:flex-col sm:items-start lg:items-start"}`}>
-             <div className=' bg-gray-200 w-full sm:h-50 lg:h-60 relative overflow-hidden'>
+             <div className=' bg-gray-200 w-full sm:h-50 md:h-72 relative overflow-hidden'>
                  <Link to={`/details/${item.id}`} onClick={()=>viewedProduct(item)} >
                   <img src={item.images?.[0]} alt=""
                 className='w-full h-full sm:object-fill group-hover:brightness-50 transition-all duration-300 ease-in-out'  
@@ -44,7 +44,7 @@ const ProductCard2 = ({item,changeview,openCartModal,expandProductModal}) => {
             </div>
             <div className=" w-full lg:mt-5 flex flex-col gap-4">
                <p className='text-[17px] font-bold '>₦ {item.price}</p>
-              <button className={`py-3 text-[1rem] px-2 rounded-2xl bg-gray-300 ${changeview?"group-hover:bg-primary text-primary group-hover:text-secondary ":"bg-primary"}font-bold cursor-pointer w-full`}
+              <button className={`py-3 text-[1rem] px-2 rounded-2xl bg-gray-600 text-secondary ${changeview?"group-hover:bg-primary text-primary group-hover:text-secondary ":"bg-primary"}font-bold cursor-pointer w-full`}
                onClick={(e)=>{e.stopPropagation();addToCart(item);openCartModal(item.id)}}>{!cartId?"Add To Cart":"Remove from Cart"}</button>
             </div>
            </div>
