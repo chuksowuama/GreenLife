@@ -27,7 +27,7 @@ const Profile = ({ togglenav,closeUserdrop,proInfo}) => {
             className="absolute z-50 bg-secondary flex flex-col 
            gap-2.5 p-3 top-10 right-0 [&>span]:border-b [&>span]:border-gray-400 [&>span]:py-2" ref={removeProfileDrop}
           >
-            <span> <Link to={"/UserdashBoard"}> {proInfo.Firstname}</Link></span>
+            <span> <Link to={"/SignInPage"}> {proInfo.Firstname}</Link></span>
             <span>{"Personal info"}</span>
             <span className="border text-center p-2 bg-primary text-secondary rounded-[0.7rem]" onClick={handleLogout}>
               Log Out

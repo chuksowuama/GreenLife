@@ -103,7 +103,7 @@ const NavBarComponent = () => {
         className="flex flex-col justify-between gap-1 items-center py-3 md:px-4 sm:px-3 lg:px-30 sm:relative"
         ref={removeonscroll}
       >
-        <div className="w-full flex sm:justify-center lg:justify-between gap-3 items-center py-2 sm:px-3 lg:px-0 sm:relative " >
+        <div className="w-full flex sm:justify-around lg:justify-between gap-3 items-center py-2 sm:px-2 lg:px-0 sm:relative " >
         <span className="sm:hidden lg:block text-gray-700"><i class="fa-solid fa-calendar-days"></i> Delivery on next day from 08:00 AM to 08:00 PM</span>
         <ul className="flex sm:gap-3 md:gap-5 pr-3 [&>li]:cursor-pointer md:[&>li]:text-[0.9rem] sm:[&>li]:text-[0.8rem] [&>li]:font-semibold [&>li]:text-gray-700 ">
            <li><Link to={"/StoresPage" }>Store Locator</Link></li>

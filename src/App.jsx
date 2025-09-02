@@ -19,6 +19,7 @@ import TrackOrderPage from "./WEBPAGES/TrackOrderPage";
 import StoresPage from "./WEBPAGES/StoreLocationPage";
 import SimpleUserDashboard from "./WEBPAGES/UserDashBoard";
 import DetailsPage from "./WEBPAGES/DetailsPage";
+import ProtectedRout from "./HookComponent/ProtectedRout";
 
 function App() {
   return (
@@ -39,7 +40,7 @@ function App() {
           <Route path="/news/:newsId" element={<NewsPage/>}/>
           <Route path="/TrackOrder" element={<TrackOrderPage/>}/>
           <Route path="/StoresPage" element={<StoresPage/>}/>
-          <Route path="/UserdashBoard" element={<SimpleUserDashboard/>}/>
+          <Route path="/UserdashBoard" element={<ProtectedRout><SimpleUserDashboard/></ProtectedRout>}/>
           <Route />
         </Routes>
       </div>
