@@ -46,7 +46,6 @@ const createdReducers = createSlice({
 
     setIncreaseCart: (state, action) => {
       const { item } = action.payload;
-      console.log(item);
       const existingProduct = state.cart.find((i) => i.id === item.id);
       if (existingProduct) {
         existingProduct.quantity += 1;
@@ -68,7 +67,7 @@ const createdReducers = createSlice({
       const { item } = action.payload;
       const wishlistItem = state.wishList.find((i) => i.id === item.id);
       if (wishlistItem) {
-        state.wishList.filter((i) => i.id !== item.id);
+       state.wishList= state.wishList.filter((i) => i.id !== item.id);
       } else {
         state.wishList.push({ ...item });
       }
@@ -77,7 +76,7 @@ const createdReducers = createSlice({
       const {item}=action.payload;
        const compareitem = state.compare.find((i) => i.id === item.id);
       if (compareitem) {
-        state.compare.filter((i) => i.id !== item.id);
+       state.wishList= state.compare.filter((i) => i.id !== item.id);
       } else {
         state.compare.push({ ...item });
       }
