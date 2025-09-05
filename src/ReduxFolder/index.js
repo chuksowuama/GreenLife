@@ -76,7 +76,7 @@ const createdReducers = createSlice({
       const {item}=action.payload;
        const compareitem = state.compare.find((i) => i.id === item.id);
       if (compareitem) {
-       state.wishList= state.compare.filter((i) => i.id !== item.id);
+       state.compare=state.wishList= state.compare.filter((i) => i.id !== item.id);
       } else {
         state.compare.push({ ...item });
       }
